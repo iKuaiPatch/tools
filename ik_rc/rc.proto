@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+message AuthReq {
+    string gwid = 1;
+    string token = 2;
+    int32 keepalive_intvl = 3;
+}
+
+message AuthResp {
+    string gwid = 1;
+    string token = 2;
+    int32 code = 3;
+}
+
+message RestCtrlReq {
+    bytes req = 1;
+}
+
+message RestCtrlResp {
+    bytes resp = 1;
+}
+
+message DisconnReq {
+    string gwid = 1;
+    optional string token = 2;
+}
+
+message SessionEnd {
+    string gwid = 1;
+}

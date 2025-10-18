@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package IK_HTTPAPPS;
+
+message IKHTTPAPPS {
+    repeated IKHTTPAPP http_app = 1;
+}

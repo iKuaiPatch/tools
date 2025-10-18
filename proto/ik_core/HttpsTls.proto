@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package HttpsTls;
+
+enum HttpsTls {
+    MATCH_DEFAULT = 0;
+    MATCH_SERVER_NAME = 1;
+    MATCH_TLS_DATA = 2;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package lb_node;
+
+message LbNode {
+    optional string route_find = 1;
+    optional string data = 2;
+    optional uint32 disable = 3;
+    optional uint32 ipset_id = 4;
+    optional uint32 n_active_dev = 5;
+    repeated LbDev lb_dev = 6;
+    optional string type = 7;
+    optional string ipset = 8;
+    optional string config_load = 9;
+    optional string prepare_release = 10;
+    optional string rcu_release = 11;
+}

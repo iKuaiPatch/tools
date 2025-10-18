@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package IkAuditData;
+
+message IkAuditData {
+    repeated ImAuditHttp im_http_data = 1;
+    repeated ImAuditApp im_app_data = 2;
+}

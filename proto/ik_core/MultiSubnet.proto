@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package MultiSubnet;
+
+message MultiSubnet {
+    required uint32 net = 1;
+    required uint32 mask = 2;
+}

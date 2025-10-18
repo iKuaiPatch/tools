@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package DevCheckRules;
+
+message DevCheckRules {
+    repeated uint32 check_dev_appid = 1;
+}

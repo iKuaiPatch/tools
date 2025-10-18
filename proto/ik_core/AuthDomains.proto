@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package AuthDomains;
+
+message AuthDomains {
+    repeated string auth_domain = 1;
+}

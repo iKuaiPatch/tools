@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package UrlMatchMethod;
+
+enum UrlMatchMethod {
+    EXACT_MATCH = 1;
+    REGULAR_EXPRESSION = 2;
+    EXACT_MATCH_HOST_AND_PARAM = 3;
+    REGULAR_HOST_EXACT_PARAM = 4;
+    REGULAR_HOST_AND_KEYWORDS = 5;
+    EXACT_HOST_REGULAR_PARAM = 6;
+    IPSET_MATCH = 7;
+    EXACT_MATCH_REFERER = 8;
+    REGULAR_MATCH_REFERER = 9;
+    EXACT_MATCH_DOMAIN = 10;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package MultiDstAddr;
+
+message MultiDstAddr {
+    repeated uint32 ip = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package DNSResItem;
+
+message DNSResItem {
+    required string domain = 1;
+    required uint32 ip = 2;
+}

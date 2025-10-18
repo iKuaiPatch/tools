@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package HttpNrData;
+
+message HttpNrData {
+    required uint32 dir = 1;
+    repeated uint32 pkt_seq = 2;
+    repeated uint32 port = 3;
+    required uint32 index = 4;
+    optional bytes prefix_match = 5;
+    optional uint32 prefix_offset = 6;
+    optional int32 match_offset = 7;
+    optional uint32 disc_logout = 8;
+    repeated Range port_range = 9;
+    optional ImAuditProto proto = 10;
+    repeated Range fwd_port_range = 11;
+    optional uint32 min_pkt_seq = 12;
+    optional bool is_uniq_id = 13;
+    optional string id_name = 14;
+    optional bool is_audit_log = 15;
+}

@@ -1,0 +1,4 @@
+/.vscode
+__pycache__/
+*.pyc
+packages_unpack/docker-bin/docker-bin.tar

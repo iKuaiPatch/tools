@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package EraseHeader;
+
+message EraseHeader {
+    required uint32 index = 1;
+    optional string new_header = 2;
+}

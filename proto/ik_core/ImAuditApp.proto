@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package ImAuditApp;
+
+message ImAuditApp {
+    required uint32 appid = 1;
+    required AppData app_data = 2;
+    required string name = 3;
+    required ImAuditEvt event = 4;
+}

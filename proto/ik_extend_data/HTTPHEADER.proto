@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package HTTPHEADER;
+
+message HTTPHEADER {
+    required string data = 1;
+    required uint32 index = 2;
+}

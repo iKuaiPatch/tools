@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package IPortRange;
+
+message IPortRange {
+    required uint32 start = 1;
+    required uint32 end = 2;
+}

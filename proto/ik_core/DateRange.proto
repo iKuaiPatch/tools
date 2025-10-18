@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package DateRange;
+
+message DateRange {
+    optional uint32 months = 1;
+    optional uint32 start_date = 2;
+    optional uint32 end_date = 3;
+    optional uint32 weekdays = 4;
+    optional uint32 start_daytime = 5;
+    optional uint32 end_daytime = 6;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package PermitHttpsDomains;
+
+message PermitHttpsDomains {
+    repeated string domain = 1;
+}

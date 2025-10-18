@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package QQDateRange;
+
+message QQDateRange {
+    optional uint32 start_daytime = 1;
+    optional uint32 end_daytime = 2;
+    optional uint32 weekdays = 3;
+}

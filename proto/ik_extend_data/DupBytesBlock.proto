@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package DupBytesBlock;
+
+message DupBytesBlock {
+    required uint32 offset1 = 1;
+    required uint32 offset2 = 2;
+    required uint32 len = 3;
+}

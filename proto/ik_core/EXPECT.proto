@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package EXPECT;
+
+message EXPECT {
+    required Proto proto = 1;
+    required ExpectType type = 2;
+    required ExpectAge age = 3;
+    required uint32 count = 4;
+    required ExpectAfter after = 5;
+    required bool before = 6;
+    required uint32 app_id = 7;
+    optional Flag match_flag = 8;
+    optional uint32 timeout = 9;
+}

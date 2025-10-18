@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package ImAuditProto;
+
+enum ImAuditProto {
+    IM_UDP = 0;
+    IM_TCP = 1;
+}

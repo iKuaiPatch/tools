@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package AuthMatchHeader;
+
+message AuthMatchHeader {
+    required uint32 index = 1;
+    required string data = 2;
+    optional bool invert = 3;
+}

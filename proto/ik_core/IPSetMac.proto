@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package IPSetMac;
+
+message IPSetMac {
+    optional string src_ipset_mac = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package HTTPCaptureIP;
+
+message HTTPCaptureIP {
+    required uint32 appid = 1;
+    required uint32 dir = 2;
+    required uint32 pkt_cnt = 3;
+    repeated CaptureIPLoc ip_loc = 4;
+}

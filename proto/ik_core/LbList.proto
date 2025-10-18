@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package lb_list;
+
+message LbList {
+    repeated LbNode node = 1;
+}

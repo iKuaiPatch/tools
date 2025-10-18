@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package L4DpiItem;
+
+message L4DpiItem {
+    required uint32 ip = 1;
+    required uint32 port = 2;
+    required uint32 proto = 3;
+    required uint32 priority = 4;
+    required uint32 appid = 5;
+    required uint32 percent = 6;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package WhiteUrl;
+
+message WhiteUrl {
+    required string url = 1;
+}

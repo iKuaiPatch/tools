@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package DIR;
+
+enum DIR {
+    BOTH = 0;
+    ORIGINAL = 1;
+    REPLY = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package MatchHeader;
+
+message MatchHeader {
+    required uint32 index = 1;
+    required string data = 2;
+    optional bool excl_flag = 3;
+}

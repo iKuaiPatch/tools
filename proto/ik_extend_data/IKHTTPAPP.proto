@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package IK_HTTP_APP;
+
+message IKHTTPAPP {
+    required uint32 appid = 1;
+    required HTTPINFO http_info = 2;
+    optional Flag match_flag = 3;
+    required DIR dir = 4;
+    required uint32 pkt_seq = 5;
+    optional uint32 port = 6;
+    optional uint32 priority = 7;
+    optional HTTPCaptureIP capture_ip = 8;
+}

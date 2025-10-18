@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package auth_req;
+
+message AuthReq {
+    required string gwid = 1;
+    required string token = 2;
+    required int32 keepalive_intvl = 3;
+}

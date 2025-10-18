@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package WhiteUrlList;
+
+message WhiteUrlList {
+    repeated WhiteUrl white_url = 1;
+    optional UrlDateRange date_range = 2;
+    optional AuthDomains auth_domains = 3;
+    optional PermitHttpsDomains permit_https_domains = 4;
+    optional AuthUrl auth_url = 5;
+    required bool permit_no_http = 6;
+    optional AuthDomains black_domains = 7;
+    optional AuthUrl black_urls = 8;
+    repeated string detect_uas = 9;
+    optional AuthUrl redirect_urls = 10;
+    repeated string auth_ifs = 11;
+    optional string white_ip_set = 12;
+    optional AuthFilter filter = 13;
+    optional DummyDNS dummy_dns = 14;
+    optional WhiteHTTPS white_https = 15;
+    repeated AuthMethodConfig auth_method_config = 17;
+}

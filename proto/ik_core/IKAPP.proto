@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package IK_APP;
+
+message IKAPP {
+    required Proto proto = 2;
+    required DIR dir = 3;
+    required uint32 pkt_seq = 4;
+    required bytes data = 5;
+    optional Flag match_flag = 6;
+    required uint32 appid = 7;
+    optional int32 offset = 8;
+    optional MatchMethod match_method = 9;
+    repeated PortRange port_range = 10;
+    repeated L7DataLen l7_data_len_range = 11;
+    optional EXPECT expect_conn = 12;
+    repeated DupBytes dup_bytes = 13;
+    repeated DupBytesBlock dup_block = 14;
+    optional MultiData multi_data = 15;
+    optional MultiPktSeq multi_seq = 16;
+    optional MultiDstAddr multi_dst_addr = 17;
+    repeated MultiSubnet multi_subnet = 18;
+    optional uint32 priority = 19;
+    optional uint32 rule_id = 20;
+    optional HttpsTls https_tls = 21;
+}

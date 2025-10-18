@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package IK_APP_SLOT;
+
+message IKAPPSLOT {
+    repeated IKAPP ik_app = 1;
+    optional IKAPPS multi_str_apps = 2;
+}

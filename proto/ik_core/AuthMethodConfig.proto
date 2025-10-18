@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package AuthMethodConfig;
+
+message AuthMethodConfig {
+    required uint32 auth_method = 1;
+    required uint32 max_auth_time = 2;
+    required uint32 max_idle_time = 3;
+}

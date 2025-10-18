@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package wans_snat;
+
+message WansSnat {
+    optional uint32 src_ipset = 1;
+    optional uint32 dst_ipset = 2;
+    optional uint32 proto_type = 3;
+    optional uint32 n_active_dev = 4;
+    repeated IPortRange sport_range = 5;
+    repeated IPortRange dport_range = 6;
+    optional string proto = 7;
+    repeated string out = 8;
+    repeated string in = 9;
+    optional string in_devs = 10;
+    optional string src_ip = 11;
+    optional string dst_ip = 12;
+}

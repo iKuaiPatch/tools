@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package HttpData;
+
+message HttpData {
+    required uint32 max_seq = 1;
+    repeated HttpMatchData match_data = 2;
+    repeated HttpNrData nr_data = 3;
+    repeated Range valid_nr_symbs = 4;
+    required uint32 max_nr_cnt = 5;
+    optional HttpMatchData logout_match = 6;
+    optional bool multi_login = 7;
+    optional uint32 same_id_cnt = 8;
+    optional bool check_uniq_id = 9;
+}

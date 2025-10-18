@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package AuthFilter;
+
+message AuthFilter {
+    repeated AuthMatchRule match_rules = 1;
+}

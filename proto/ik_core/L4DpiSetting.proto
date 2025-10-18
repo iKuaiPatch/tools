@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package L4DpiSetting;
+
+message L4DpiSetting {
+    repeated L4DpiItem item = 1;
+}

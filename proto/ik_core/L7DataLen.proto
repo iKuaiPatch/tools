@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package L7DataLen;
+
+message L7DataLen {
+    required uint32 min_len = 1;
+    required uint32 max_len = 2;
+}

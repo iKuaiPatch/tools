@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package MatchMethod;
+
+enum MatchMethod {
+    EXACT_MATCH = 0;
+    REGULAR_MATCH = 1;
+    NO_FIXED_DATA_MATCH = 2;
+    MATCH_MULTI_DATA = 3;
+}

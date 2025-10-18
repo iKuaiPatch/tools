@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package QQNode;
+
+message QQNode {
+    required bool acl_mode = 1;
+    optional QQDateRange date_range = 2;
+    optional uint32 ip_set_id = 3;
+    optional string ip_set = 4;
+    repeated string qq = 5;
+    optional string qq_regexp = 6;
+    optional uint32 qq_regexp_len = 7;
+}

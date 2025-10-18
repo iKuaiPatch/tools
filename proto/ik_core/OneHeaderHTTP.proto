@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package OneHeaderHTTP;
+
+message OneHeaderHTTP {
+    required uint32 index = 1;
+    required IKHTTPAPPS happs = 2;
+    optional IKHTTPAPPS multi_str_happs = 3;
+}

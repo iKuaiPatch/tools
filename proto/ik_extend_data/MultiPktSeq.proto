@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package MultiPktSeq;
+
+message MultiPktSeq {
+    repeated uint32 pkt_seq = 1;
+}

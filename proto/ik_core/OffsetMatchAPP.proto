@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package OffsetMatchAPP;
+
+message OffsetMatchAPP {
+    required int32 offset = 1;
+    required uint32 hslot_cnt = 2;
+    required IKAPPS apps = 3;
+}

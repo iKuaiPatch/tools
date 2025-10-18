@@ -1,0 +1,4890 @@
+{
+  "im_http_data": [
+    {
+      "appid": 3010001,
+      "http_data": {
+        "max_seq": 10,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "KC9xcWZpbGV8L2dldE1pbmlCcm93c2VyVXBkYXRlQ29uZmlnfC9xcXdlYik="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 7,
+            "prefix_match": "dWluX2Nvb2tpZT0="
+          },
+          {
+            "index": 7,
+            "prefix_match": "dWluX2Nvb2tpZT0=",
+            "is_uniq_id": true
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 12,
+        "check_uniq_id": true
+      },
+      "name": "QQ_PC"
+    },
+    {
+      "appid": 3020003,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "XigvbW9ieXkvKG5hdi9pbmRleC9pZHh8bmF2cyl8L2xvYmJ5MlwuZG8pXD8="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dXNlcm5hbWU9"
+          },
+          {
+            "prefix_match": "dXNlcm5hbWU9",
+            "is_uniq_id": true
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 10,
+        "check_uniq_id": true
+      },
+      "name": "YY_MOBILE"
+    },
+    {
+      "appid": 3010015,
+      "http_data": {
+        "max_seq": 10,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L2ltbG9naW5ndy90Y3A2MGxvZ2lu"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "bG9naW5JZD1jbnRhb2Jhbw==",
+            "disc_logout": 1
+          },
+          {
+            "prefix_match": "ZGV2aWQ9",
+            "disc_logout": 1
+          },
+          {
+            "prefix_match": "bG9naW5JZD1jbnRhb2Jhbw==",
+            "is_uniq_id": true
+          },
+          {
+            "prefix_match": "ZGV2aWQ9",
+            "is_uniq_id": true
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 1,
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 60
+          },
+          {
+            "min": 62,
+            "max": 94
+          },
+          {
+            "min": 96,
+            "max": 126
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "WW_PC"
+    },
+    {
+      "appid": 7060012,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9ta2V5L2luZGV4XC5waHAvbWtleS9jaGVjaw=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "7060012imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 20,
+        "check_uniq_id": true
+      },
+      "name": "DIDI_MOBILE"
+    },
+    {
+      "appid": 2050003,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L2ZjZ2ktYmluL2ZjZ3wvZ2V0bWZvbWF0XD8="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "XDxxcVw+",
+            "is_uniq_id": true,
+            "id_name": "2050003"
+          },
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "2050003imei"
+          },
+          {
+            "prefix_match": "aW1zaT0=",
+            "is_uniq_id": true,
+            "id_name": "2050003imsi"
+          },
+          {
+            "prefix_match": "dWluPQ==",
+            "is_uniq_id": true,
+            "id_name": "QQphone"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 20,
+        "check_uniq_id": true
+      },
+      "name": "QQMUSIC_MOBILE"
+    },
+    {
+      "appid": 3010030,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80,
+              8080,
+              443
+            ],
+            "match_str": "L21taGVhZC98L2NnaS1iaW4vbWljcm9tc2ctYmluL25ld2dldGRucw=="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 3,
+            "prefix_match": "dWluPQ==",
+            "is_uniq_id": true,
+            "id_name": "3010030"
+          },
+          {
+            "prefix_match": "dWluPQ==",
+            "is_uniq_id": true,
+            "id_name": "3010030"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 11,
+        "check_uniq_id": true
+      },
+      "name": "WEIXIN_MOBILE"
+    },
+    {
+      "appid": 7050001,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9pbnRlcmZhY2Uvc2RrL3Nka2FkLnBocA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "dWlkPQ==",
+            "is_uniq_id": true,
+            "id_name": "7050001"
+          },
+          {
+            "index": 53,
+            "prefix_match": "dXNlcmlkJTIyJTNBJTIy",
+            "is_uniq_id": true,
+            "id_name": "7050001imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 16,
+        "check_uniq_id": true
+      },
+      "name": "SINAWEIBO_WEB"
+    },
+    {
+      "appid": 7071003,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9pbmRleFwucGhw"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "DANGDANGWANG_MOBILE"
+    },
+    {
+      "appid": 1050030,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              7777,
+              9080
+            ],
+            "index": 1,
+            "match_str": "KG1pc3NlZGNhbGxcLm1haWxcLndvXC5jbjo3Nzc3fDExNFwuMjQ3XC4wXC4xNzM6OTA4MCk="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "aW1laWNvZGUlMjUyMiUyNTNB",
+            "is_uniq_id": true,
+            "id_name": "1050030IMEI"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "WO_MOBILE"
+    },
+    {
+      "appid": 3030020,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              2001,
+              9997
+            ],
+            "match_str": "MS4wL2tjL2FjY291bnQvbG9naW58L3YyL2dldF9hdWRpb2RldmljZQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "3030020imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 20,
+        "check_uniq_id": true
+      },
+      "name": "KC_MOBILE"
+    },
+    {
+      "appid": 3030019,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi92My9pbS9sb2dpbg=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "imei3030019"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 20,
+        "check_uniq_id": true
+      },
+      "name": "youxin_MOBILE"
+    },
+    {
+      "appid": 7070070,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "L3YzL3VzZXIvdXNlcmluZm98c2RrXC4xcnRiXC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "JnVpZD0=",
+            "is_uniq_id": true,
+            "id_name": "7070070"
+          },
+          {
+            "prefix_match": "ZGV2aWNlX2ltZWk9",
+            "is_uniq_id": true,
+            "id_name": "7070070imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 16,
+        "check_uniq_id": true
+      },
+      "name": "ZhongQingKanDian_MOBILE"
+    },
+    {
+      "appid": 7071001,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi92LmdpZg=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "b3BlbnVkaWQ9",
+            "is_uniq_id": true,
+            "id_name": "7071001IMEI"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "ALiYun_MOBILE"
+    },
+    {
+      "appid": 7060105,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9zbnMvanNvbi9wcm9maWxl"
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "XHgyMmlkZW50aWZpZXJceDIyOlx4MjI=",
+            "is_uniq_id": true,
+            "id_name": "7060105imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "MOJITIANQI_MOBILE"
+    },
+    {
+      "appid": 7020012,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9pbXAvcmVxdWVzdFwucw=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dWlkPQ==",
+            "is_uniq_id": true,
+            "id_name": "7020012imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 123
+          },
+          {
+            "min": 125,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 30,
+        "check_uniq_id": true
+      },
+      "name": "YOUDAO_MOBILE"
+    },
+    {
+      "appid": 2050080,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9rc2luZ1wucGw="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "YXBwX2tleT0=",
+            "is_uniq_id": true,
+            "id_name": "2050080imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "KUWOKGE_MOBILE"
+    },
+    {
+      "appid": 7050002,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9jYmRhdGEvdXNlcg=="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "dGVybWluYWxceDIyOlx4MjI=",
+            "is_uniq_id": true,
+            "id_name": "7050002imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "TENGXUNWEIBO_MOBILE"
+    },
+    {
+      "appid": 6080602,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "bG9nXC5sYW9odVwuY29t"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "6080602"
+    },
+    {
+      "appid": 6080022,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "aW9zbG9naW5cLmFwcDEwMDAwMDAxMjlcLnR3c2FwcFwuY29t"
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "ZGV2aWNlaWQ9",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "6080022"
+    },
+    {
+      "appid": 6080024,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "YXN4eVwuM2dcLnFxXC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "REZBFlwk",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "6080024"
+    },
+    {
+      "appid": 7060043,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "XnZcLmFkbWFzdGVyXC5jb21cLmNuJA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "el9f",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "LVMAMALVYOU_MOBILE"
+    },
+    {
+      "appid": 2050001,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L3YuL21vYmlsZV9zcGxhc2hfc29ydA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "dXNlcmlkXHgyMjo=",
+            "is_uniq_id": true,
+            "id_name": "2050001userid"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 10,
+        "check_uniq_id": true
+      },
+      "name": "kugou_MOBILE"
+    },
+    {
+      "appid": 7060048,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9ndGFzc2lzdC9hcHAxMjMwNg=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dXVpZD0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "HANGBANGUANJIA_MOBILE"
+    },
+    {
+      "appid": 7070007,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "XnJcLmluZXdzXC5xcVwuY29tJA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "TENGXUNXINWEN_MOBILE"
+    },
+    {
+      "appid": 2050050,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9hcGk="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "KAOLAFM_MOBILE"
+    },
+    {
+      "appid": 7070005,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "XmFwaVwuc2luYVwuY24k"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "XINLANGXINWEN_MOBILE"
+    },
+    {
+      "appid": 2050035,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "Xm1wXC54aW1hbGF5YVwuY29tJA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 7,
+            "prefix_match": "ZGV2aWNlPShpUGFkfElQaG9uZSkm",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "XIMALAYA_MOBILE"
+    },
+    {
+      "appid": 7070009,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9zZXJ2aWNl"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "JINRITOUTIAO_MOBILE"
+    },
+    {
+      "appid": 4010029,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "YXNcLnBwdHZcLmNvbSQ="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZHBpZD0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 58
+          },
+          {
+            "min": 60,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "PPTV_MOBILE"
+    },
+    {
+      "appid": 4010025,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "cXlpZHZ8cXk="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "cHU9",
+            "is_uniq_id": true,
+            "id_name": "4010025UID"
+          },
+          {
+            "prefix_match": "dT0=",
+            "is_uniq_id": true,
+            "id_name": "4010025imei"
+          },
+          {
+            "prefix_match": "d3NjX2ltZWk9",
+            "is_uniq_id": true,
+            "id_name": "4010025imei"
+          },
+          {
+            "prefix_match": "d3NjX2lzYz0=",
+            "is_uniq_id": true,
+            "id_name": "4010025imsi"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "AIQIYI_MOBILE"
+    },
+    {
+      "appid": 4010056,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "cHVzZXJcLmZ1bnNoaW9uXC5jb218c3RhdFwuZnVuc2hpb25cLm5ldHxmdW5zaGlvblwuY29t"
+          },
+          {
+            "port": [
+              80
+            ],
+            "index": 2,
+            "match_str": "ZnVuc2hpb25QbGF5ZXI="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "bTU9",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          },
+          {
+            "prefix_match": "dW49",
+            "is_uniq_id": true,
+            "id_name": "4010056"
+          },
+          {
+            "prefix_match": "dXNlcl9pZD0=",
+            "is_uniq_id": true,
+            "id_name": "4010056UID"
+          },
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "4010056IMEI"
+          },
+          {
+            "prefix_match": "aW1zaT0=",
+            "is_uniq_id": true,
+            "id_name": "4010056imsi"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "FENGXIN_MOBILE"
+    },
+    {
+      "appid": 4010022,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9hbmRyb2lkL2R5bmFtaWNcLnBocC4qYWN0PW5ld0xvZ2lu"
+          },
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "XmFwcGxlXC53d3dcLmxldHZcLmNvbSQ="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          },
+          {
+            "index": 53,
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "4010022imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "LESHISHIPIN_MOBILE"
+    },
+    {
+      "appid": 4010007,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "YXR5XC5zb2h1XC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "JnV2PQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "SOUHUSHIPIN_MOBILE"
+    },
+    {
+      "appid": 4010021,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "cFwudGVuY2VudG1pbmRcLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "SURGQT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "TENGXUN_MOBILE"
+    },
+    {
+      "appid": 4010059,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "XnZkblwuYXBwc1wuY250dlwuY24k"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dWlkPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "CBOX_MOBILE"
+    },
+    {
+      "appid": 4010002,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "YXBwamlldHVcLnlvdWt1XC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "YOUKU_MOBILE"
+    },
+    {
+      "appid": 4010240,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "XmRcLm1vYlwuY29tJA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "ZHANQIZHIBO_MOBILE"
+    },
+    {
+      "appid": 4010374,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "YXBwX25hbWU9YXdlbWU="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "douyinduanshipin_MOBILE"
+    },
+    {
+      "appid": 7050155,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "dGltZQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 29,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "TANTAN_MOBILE"
+    },
+    {
+      "appid": 1050027,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              8500
+            ],
+            "index": 1,
+            "match_str": "XmFwcFwubWFpbFwuMjFjblwuY29tOjg1MDAk"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 511,
+        "check_uniq_id": true
+      },
+      "name": "189_MOBILE"
+    },
+    {
+      "appid": 7060032,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "KF5uZXdzc29cLm1hcFwucXFcLmNvbSR8bWFwXC5xcVwuY29tKQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 53,
+            "prefix_match": "QW5kcm9pZC4uLg==",
+            "is_uniq_id": true,
+            "id_name": "7060032imei"
+          },
+          {
+            "index": 53,
+            "prefix_match": "d2lmaS4u",
+            "is_uniq_id": true,
+            "id_name": "7060032imsi"
+          },
+          {
+            "index": 7,
+            "prefix_match": "cHQyZ2d1aW49bw==",
+            "is_uniq_id": true,
+            "id_name": "7060032WEBzh"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "tengxunditu"
+    },
+    {
+      "appid": 7050046,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "dXNlcg=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW09",
+            "is_uniq_id": true,
+            "id_name": "7050046IMEI/IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "NICE_MOBILE"
+    },
+    {
+      "appid": 3010074,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "aXN1"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aXN1PQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 46
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "Zoosk_MOBILE"
+    },
+    {
+      "appid": 4010010,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "c3RyZWFt"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "4010010IMEI"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "miaopai_MOBILE"
+    },
+    {
+      "appid": 4010220,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 53,
+            "match_str": "aWRmYQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "4010220IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 46
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "xiaoying_MOBILE"
+    },
+    {
+      "appid": 4010060,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9tb2J5eS8="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "4010060imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 20,
+        "check_uniq_id": true
+      },
+      "name": "YY_MOBILE"
+    },
+    {
+      "appid": 3010086,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi92MS9wdWJsaWMveXFs"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "d2hlcmVcJTIwXF9kaVwlM0RcJTI3",
+            "is_uniq_id": true,
+            "id_name": "3010086IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "CookingFever_MOBILE"
+    },
+    {
+      "appid": 4010040,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "XmFwcFwudmlkZW9cLmJhaWR1XC5jb20k"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "4010040IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "BAIDUSHIPIN_MOBILE"
+    },
+    {
+      "appid": 4010207,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 1,
+            "match_str": "Xihzc29cLmJhb2ZlbmdcLm5ldHwoYXBwfHdlYilcLmhvdXlpXC5iYW9mZW5nXC5uZXR8KGlwaG9uZWxvZ3xpcGFkbG9nKVwuc2hvdWppXC5iYW9mZW5nXC5jb20p"
+          }
+        ],
+        "nr_data": [
+          {
+            "index": 7,
+            "prefix_match": "YmZ1bmFtZT0=",
+            "is_uniq_id": true,
+            "id_name": "4010207imei"
+          },
+          {
+            "prefix_match": "aWRmYVwlMjJcOlwlMjI=",
+            "is_uniq_id": true,
+            "id_name": "4010207IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 95,
+            "max": 95
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "BAOFENGYINGYIN_MOBILE"
+    },
+    {
+      "appid": 6080774,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "aWZh"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWZhOg==",
+            "is_uniq_id": true,
+            "id_name": "6080774IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "gangqinkuai2_MOBILE"
+    },
+    {
+      "appid": 3010087,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Y2xpZW50X3VpZA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "Y2xpZW50X3VpZD0=",
+            "is_uniq_id": true,
+            "id_name": "3010087IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "guilijian_MOBILE"
+    },
+    {
+      "appid": 3010089,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "aWRmYQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "30100891IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "jimengsanguo_MOBILE"
+    },
+    {
+      "appid": 7072003,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "index": 53,
+            "match_str": "L29wc2Ny"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laS46Lg==",
+            "is_uniq_id": true,
+            "id_name": "7072003idfa"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 33
+          },
+          {
+            "min": 35,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "wifi-wannengyaoshi"
+    },
+    {
+      "appid": 2020702,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9pZXMvbmV0d29yay9hd2VtZQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dXVpZD0=",
+            "is_uniq_id": true,
+            "id_name": "2020702imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 20,
+        "check_uniq_id": true
+      },
+      "name": "douyin_MOBILE"
+    },
+    {
+      "appid": 2050002,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L0FkU2VydmljZS9rYWlwaW5nL2FkaW5mb3xrdw=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "Y2lkPQ==",
+            "is_uniq_id": true,
+            "id_name": "2050002idfa"
+          },
+          {
+            "prefix_match": "bG9naW5VaWQ9",
+            "is_uniq_id": true,
+            "id_name": "2050002uid"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "kuwo"
+    },
+    {
+      "appid": 4010024,
+      "http_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Xi9hcGkvdmVyc2lvblN3aXRjaA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGlkPWk=",
+            "is_uniq_id": true,
+            "id_name": "4010024imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 20,
+        "check_uniq_id": true
+      },
+      "name": "mangguoTV_MOBILE"
+    },
+    {
+      "appid": 7073008,
+      "http_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "aWRmYQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "7073008idfa"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "qichezhijia"
+    }
+  ],
+  "im_app_data": [
+    {
+      "appid": 3010015,
+      "app_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80,
+              443
+            ],
+            "match_str": "YXBpfIgGXHgwMFx4MDAuKmNudGFvYmFv"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dXNlcl9pZD1jbnRhb2Jhbw==",
+            "is_uniq_id": true,
+            "id_name": "3010015username"
+          },
+          {
+            "prefix_match": "Y250YW9iYW8="
+          },
+          {
+            "prefix_match": "Y250YW9iYW8=",
+            "is_uniq_id": true,
+            "id_name": "3010015username"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 1
+          },
+          {
+            "min": 4,
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 30,
+        "check_uniq_id": true
+      },
+      "name": "feizhu_MOBILE"
+    },
+    {
+      "appid": 3010002,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80,
+              8000,
+              8080,
+              443,
+              14000
+            ],
+            "match_str": "KFx4MDBceDAwXHgwMFsVFl0BM1I5fFx4MDBceDAwAVwrXHgwMFx4MDBceDAwCHxceDAwXHgwMC4uXHgwMFx4MDBceDAwLik="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "XHgwMFx4MDBceDAwXHgwMFsMDg1d",
+            "min_pkt_seq": 10
+          },
+          {
+            "dir": 1,
+            "prefix_match": "Xlx4MDBceDAwXHgwMC5ceDAwXHgwMFx4MDAIXHgwMFx4MDBceDAwXHgwMFx4MDAu"
+          },
+          {
+            "prefix_match": "XHgwMFx4MDBceDAwXHgwMFsMDg1d",
+            "min_pkt_seq": 10,
+            "is_uniq_id": true,
+            "id_name": "3010002"
+          },
+          {
+            "dir": 1,
+            "prefix_match": "Xlx4MDBceDAwXHgwMC5ceDAwXHgwMFx4MDAIXHgwMFx4MDBceDAwXHgwMFx4MDAu",
+            "is_uniq_id": true,
+            "id_name": "3010002"
+          },
+          {
+            "prefix_match": "SGVhcnRiZWF0LkFsaXZlLi4uLi4uLi4uLi4u",
+            "is_uniq_id": true,
+            "id_name": "imei"
+          },
+          {
+            "prefix_match": "SGVhcnRiZWF0LkFsaXZlLipceDIyXHw=",
+            "is_uniq_id": true,
+            "id_name": "imsi"
+          },
+          {
+            "prefix_match": "XHgwMFx4MDBceDAwXHgwMC4=",
+            "is_uniq_id": true,
+            "id_name": "QQ_phone"
+          },
+          {
+            "prefix_match": "XHgwMFx4MDBceDAwDg==",
+            "is_uniq_id": true,
+            "id_name": "QQ_phones"
+          },
+          {
+            "prefix_match": "cC4uLi4u",
+            "is_uniq_id": true,
+            "id_name": "QQphone"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "multi_login": true,
+        "same_id_cnt": 3,
+        "check_uniq_id": true
+      },
+      "name": "QQ_MOBILE"
+    },
+    {
+      "appid": 3020003,
+      "app_data": {
+        "max_seq": 10,
+        "match_data": [
+          {
+            "port": [
+              1001,
+              2001,
+              3001,
+              80
+            ],
+            "match_str": "XiguXHgwMFx4MDBceDAwARRceDAwXHgwMMhceDAwXHgwMFx4MDAuLi4u/////y4ufFBPU1QgL3NhKQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "Xi5ceDAwXHgwMFx4MDABFFx4MDBceDAwyFx4MDBceDAwXHgwMC4uLi7/////Li4=",
+            "is_uniq_id": true,
+            "id_name": "3020003"
+          },
+          {
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 32,
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 126
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "YY_PC"
+    },
+    {
+      "appid": 3010036,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80,
+              443
+            ],
+            "match_str": "VGNtQ29yZS4uZXhjaGFuZ2VLZXl8iAZceDAwXHgwMC4qY25oaHVwYW4="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "Y25oaHVwYW4="
+          },
+          {
+            "prefix_match": "Y25oaHVwYW4=",
+            "is_uniq_id": true
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 1
+          },
+          {
+            "min": 4,
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 60
+          },
+          {
+            "min": 62,
+            "max": 94
+          },
+          {
+            "min": 96,
+            "max": 126
+          }
+        ],
+        "max_nr_cnt": 40,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "WW_MOBILE"
+    },
+    {
+      "appid": 3010030,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "R0VUIC9jZ2ktYmluL2p1bXBwb3J0YWx8d2VpeGlubnVtfG1hc2RrLjNnLnFxLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "dir": 1,
+            "prefix_match": "b3BlcmF0b3I9",
+            "is_uniq_id": true,
+            "id_name": "3010030"
+          },
+          {
+            "prefix_match": "d2VpeGlubnVtLi4uLg==",
+            "is_uniq_id": true,
+            "id_name": "3010030"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "3010030"
+    },
+    {
+      "appid": 7072003,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "XHtceDIyYXBwSWRceDIyOlx4MjJBMDAwOFx4MjI="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laVx4MjI6XHgyMg==",
+            "is_uniq_id": true,
+            "id_name": "7072003imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 46,
+            "max": 46
+          }
+        ],
+        "max_nr_cnt": 18,
+        "check_uniq_id": true
+      },
+      "name": "7072003"
+    },
+    {
+      "appid": 7060023,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "L2dhdGV3YXlcP2FwaT0="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laS4uLg==",
+            "is_uniq_id": true,
+            "id_name": "7060023imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 20,
+        "check_uniq_id": true
+      },
+      "name": "KUAIDIDACHE_MOBILE"
+    },
+    {
+      "appid": 7060001,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "bW9iaWxlLWFwaTIwMTFcLmVsb25nXC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "dir": 1,
+            "prefix_match": "UGhvbmVOb1x4MjI6XHgyMg==",
+            "is_uniq_id": true,
+            "id_name": "7060001phone"
+          },
+          {
+            "prefix_match": "R3VpZDog",
+            "is_uniq_id": true,
+            "id_name": "7060001IMEI"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 47,
+            "max": 58
+          }
+        ],
+        "max_nr_cnt": 16,
+        "check_uniq_id": true
+      },
+      "name": "yilong_MOBILE"
+    },
+    {
+      "appid": 2050001,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "KFBPU1QgL3YuL2xvZ2luX2J5X3B3ZHxQT1NUIC9wb3N0fFBPU1QgL3YuL21vYmlsZSk="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laS4uLg==",
+            "is_uniq_id": true,
+            "id_name": "IMEI"
+          },
+          {
+            "prefix_match": "aW1zaS4uLg==",
+            "is_uniq_id": true,
+            "id_name": "IMSI"
+          },
+          {
+            "prefix_match": "dXNlcm5hbWUuLi4=",
+            "is_uniq_id": true,
+            "id_name": "2050001"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 33
+          },
+          {
+            "min": 35,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 30,
+        "check_uniq_id": true
+      },
+      "name": "KUGOU_MOBILE"
+    },
+    {
+      "appid": 7071078,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "KC9wdmhpdHpvbHx6b2wp"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dXNlcmlkPQ==",
+            "is_uniq_id": true,
+            "id_name": "7071078uid"
+          },
+          {
+            "prefix_match": "SU1FSV9DT0RFPQ==",
+            "is_uniq_id": true,
+            "id_name": "7071078imei"
+          },
+          {
+            "prefix_match": "SU1TSV9DT0RFPQ==",
+            "is_uniq_id": true,
+            "id_name": "7071078imsi"
+          },
+          {
+            "prefix_match": "em9sX3VzZXJpZD0=",
+            "is_uniq_id": true,
+            "id_name": "7071078iosuid"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 25,
+        "check_uniq_id": true
+      },
+      "name": "ZhongGuanCunZaiXian_MOBILE"
+    },
+    {
+      "appid": 7070071,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80,
+              443
+            ],
+            "match_str": "Ly8vbW9iY2VudC9hcHA="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "1070037imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 25,
+        "check_uniq_id": true
+      },
+      "name": "WangJingTouTiao_MOBILE"
+    },
+    {
+      "appid": 7050003,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80,
+              443
+            ],
+            "match_str": "L25ld21vcGx1cy92"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laTog",
+            "is_uniq_id": true,
+            "id_name": "7050003imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 25,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "YouJia_MOBILE"
+    },
+    {
+      "appid": 7071002,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "bWFwaQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "cHJhZ21hLWRldmljZTog",
+            "is_uniq_id": true,
+            "id_name": "7071002IMEI"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "DaZhongDianPing_MOBILE"
+    },
+    {
+      "appid": 7073043,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "dWFj"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "RGV2aWNlSURceDIyOlx4MjI=",
+            "is_uniq_id": true,
+            "id_name": "7073043IMEI"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "Zhi Lian Zhao Pin_MOBILE"
+    },
+    {
+      "appid": 7073399,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "MTAwMTA="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGVzbW9iaWxlOg==",
+            "is_uniq_id": true,
+            "id_name": "7071031phone"
+          },
+          {
+            "prefix_match": "YWNjb3VudD0=",
+            "is_uniq_id": true,
+            "id_name": "7071031phone"
+          },
+          {
+            "prefix_match": "ZGV2aWNlQ29kZT0=",
+            "is_uniq_id": true,
+            "id_name": "7071031imei"
+          },
+          {
+            "prefix_match": "YXBwSWQ9",
+            "is_uniq_id": true,
+            "id_name": "7071031imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "LIANTONG_MOBILE"
+    },
+    {
+      "appid": 7060011,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "cmVzdGFwaQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dXNlcklEPU0=",
+            "is_uniq_id": true,
+            "id_name": "7060011IMEI"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "XieChengLvXing_MOBILE"
+    },
+    {
+      "appid": 4010002,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "KHByb3h5fHlvdWt1KQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "4010002imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "TUDOU YOUKU_MOBILE"
+    },
+    {
+      "appid": 3010005,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Zi5tcXpvbmUuKmlkZmE="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "JmlkZmE9",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "QQIDFA_MOBILE"
+    },
+    {
+      "appid": 6080012,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "MTVDMUNENkQtNUY2NS00ODVBLThEMUItM0IwQUQ3MkI3QzA="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "Q0FDU1JcLQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080012"
+    },
+    {
+      "appid": 6080030,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "MTVDMUNENkQtNUY2NS00ODVBLThEMUItM0IwQUQ3MkI3QzA="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "d2lmaVx4MDBceDAwXHgwMFwk",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080030"
+    },
+    {
+      "appid": 6080029,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "eWhzZGtcLnlocmVzXC5jbjo0MDAz"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "bWFjXHgyMlw6XHgyMg==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080029"
+    },
+    {
+      "appid": 6080005,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "eWtkY1wuaHp5b2thXC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "2lx4MDBcJA==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080005"
+    },
+    {
+      "appid": 6080049,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "ZFwubW9iXC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080049"
+    },
+    {
+      "appid": 7070038,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "SmllbWlhbk5ld3M="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "XHgyMmlkZmFceDIyOlx4MjI=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "7070038"
+    },
+    {
+      "appid": 7070019,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "L2NsdC92My9tc2dQdXNoQXBuXC5tc3A="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "7070019"
+    },
+    {
+      "appid": 2050046,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "TzJMaXN0ZW5pbmc="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "bWFjPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "2050046"
+    },
+    {
+      "appid": 7060030,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "WmhpeGluZw=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYSUyMiUzQSUyMg==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "7060030"
+    },
+    {
+      "appid": 7070004,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "c3NcLnNvaHVcLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "XHgyMmlkZmFceDIyOlx4MjI=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "7070004"
+    },
+    {
+      "appid": 7060097,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "d2Vla2VuZA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "XHgyMmlkZmFceDIyIDogXHgyMg==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "7060097"
+    },
+    {
+      "appid": 2050043,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "bXNnXC51bWVuZ2Nsb3VkXC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "XHgyMmlkZmFceDIyOlx4MjI=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "2050043"
+    },
+    {
+      "appid": 7060010,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "JUU1JTkwJThDJUU3JUE4JThCJUU2JTk3JTg1JUU2JUI4JUI4"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "7060010"
+    },
+    {
+      "appid": 2050059,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "ZmVuZ2h1YW5nZGlhbnRhaQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYSUyMiUzQSUyMg==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "2050059"
+    },
+    {
+      "appid": 7070047,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "bmF0aXZlYWR2XC5kZnRvdXRpYW9cLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlaWQ9",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "7070047"
+    },
+    {
+      "appid": 4010234,
+      "app_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "YXBpcGNcLmFwcFwuYWNmdW5cLmNu"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dWRpZCUyMCUzRCUyMCU1QyUyMg==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 38,
+            "max": 38
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "AcFun_MOBILE"
+    },
+    {
+      "appid": 4010085,
+      "app_data": {
+        "max_seq": 2,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "YXBwdmVy"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "LONGZHU_MOBILE"
+    },
+    {
+      "appid": 7073015,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80,
+              443
+            ],
+            "match_str": "L2FwaS9iYXNlL2luZm8="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "NThpZGZhOiA=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 12
+          },
+          {
+            "min": 14,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "58tongcheng"
+    },
+    {
+      "appid": 7073102,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80,
+              443
+            ],
+            "match_str": "L3ppeHVuL3Y5L2hvbWU="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 68
+          }
+        ],
+        "max_nr_cnt": 40,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "jinshanciba"
+    },
+    {
+      "appid": 7071009,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80,
+              443
+            ],
+            "match_str": "L21tY3Mtd2Vi"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 68
+          }
+        ],
+        "max_nr_cnt": 40,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "suningyigou"
+    },
+    {
+      "appid": 7071075,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80,
+              443
+            ],
+            "match_str": "L21zZ0NlbnRlcg=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYS46Lg==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 33
+          },
+          {
+            "min": 35,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "yihaodian"
+    },
+    {
+      "appid": 7050184,
+      "app_data": {
+        "max_seq": 2,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "Y2xpZW50"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "check_uniq_id": true
+      },
+      "name": "MEIPAI_MOBILE"
+    },
+    {
+      "appid": 2050033,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "bVwuYXRtXC55b3VrdVwuY29t"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          },
+          {
+            "prefix_match": "aW09",
+            "is_uniq_id": true,
+            "id_name": "2050033IMEI"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "xiamiyinyue"
+    },
+    {
+      "appid": 6080666,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "ZFwubW9iXC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080666"
+    },
+    {
+      "appid": 6080667,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "Z1wubGlubnlvdVwuY29t"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laVwlM0Q=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080667"
+    },
+    {
+      "appid": 6080668,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "YXBpXC5zZGtcLmtpbmdjaGVlcmdhbWVcLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080668"
+    },
+    {
+      "appid": 6080669,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "Y25cLnduXC5oaVswLTldWzAtOV1bMC05XStcLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlX21hcms9",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080669"
+    },
+    {
+      "appid": 6080670,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "cGhvbmVhZHZcLnpxZ2FtZVwuY29t"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080670"
+    },
+    {
+      "appid": 6080671,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "d3d6c1wuZWJpYmlcLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080671"
+    },
+    {
+      "appid": 6080672,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "c21pXC5oZWl0YW9cLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080672"
+    },
+    {
+      "appid": 6080673,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "c1swLTldWzAtOV0rXC5zc1wubW9xaWtha2FcLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "RkEiOiI=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080673"
+    },
+    {
+      "appid": 6080674,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "YXBwXC5nZGF0YWN1YmVcLm5ldA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dWlkPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080674"
+    },
+    {
+      "appid": 6080675,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "ZFwubW9iXC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080675"
+    },
+    {
+      "appid": 6080676,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "c2hlcXVcLnhpYW9hb2h1ZG9uZ1wuY29t"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "TUFDPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080676"
+    },
+    {
+      "appid": 6080677,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "YXBwXC5nZGF0YWN1YmVcLm5ldA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080677"
+    },
+    {
+      "appid": 6080678,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "c21pXC5oZWl0YW9cLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080678"
+    },
+    {
+      "appid": 6080679,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "bWFuYWdlclwuZ3puZW1vXC5meVwubGlubnlvdVwuY29t"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlX2lkPQ==",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080679"
+    },
+    {
+      "appid": 6080680,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "YXBwXC5nZGF0YWN1YmVcLm5ldA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 122
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "6080680"
+    },
+    {
+      "appid": 1050021,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "KHBuc21zZy1zdnJcLm1haWxcLjEwMDg2LmNuOjc3MDB8L3dlYXRoZXIvd2VhdGhlcnwvYWRkcnN2ci9BZGRMYXN0Q29udGFjdHN8MTM5UHVzaE1haWwlMjBjb3B5fG1haWxcLjEwMDg2KQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "XDx1aWRcPg==",
+            "is_uniq_id": true,
+            "id_name": "1050021"
+          },
+          {
+            "prefix_match": "XDxkZXZpY2VJTUVJXD4=",
+            "is_uniq_id": true,
+            "id_name": "1050021imei"
+          },
+          {
+            "prefix_match": "XDxzdHJpbmcgbmFtZT1ceDIyZXh0M1x4MjJcPg==",
+            "is_uniq_id": true,
+            "id_name": "105002PCzh"
+          },
+          {
+            "prefix_match": "TG9naW5fVXNlck51bWJlcj0=",
+            "is_uniq_id": true,
+            "id_name": "105002WEBzh"
+          },
+          {
+            "prefix_match": "QWRkckNvbnRlbnRcPg==",
+            "is_uniq_id": true,
+            "id_name": "105002WEBto"
+          },
+          {
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "105002IDFA"
+          },
+          {
+            "dir": 1,
+            "prefix_match": "RmFtaWx5RW1haWxceDIyOlx4MjI=",
+            "is_uniq_id": true,
+            "id_name": "1050021mail"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 58
+          },
+          {
+            "min": 61,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 50,
+        "check_uniq_id": true
+      },
+      "name": "139MAIL"
+    },
+    {
+      "appid": 7050021,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              8001
+            ],
+            "match_str": "XgPq"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "XHgwMAE=",
+            "is_uniq_id": true,
+            "id_name": "7050021imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "Blued"
+    },
+    {
+      "appid": 7071005,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L2d3L213cA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "bXctZGlkOiA=",
+            "is_uniq_id": true,
+            "id_name": "7071005imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "mogujie_Mobile"
+    },
+    {
+      "appid": 7050033,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L21vYmlsZS9hZ2VudFwuanNvbj9vYXV0aF9jb25zdW1lcl9rZXk="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laSUzRA==",
+            "is_uniq_id": true,
+            "id_name": "7050033imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "kaixinwang_Mobile"
+    },
+    {
+      "appid": 7073281,
+      "app_data": {
+        "max_seq": 1,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "YXBp"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "NThpZGZhOiA=",
+            "is_uniq_id": true,
+            "id_name": "7073281IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 46
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "58tongcheng_MOBILE"
+    },
+    {
+      "appid": 3010072,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "aWRmYQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYTog",
+            "is_uniq_id": true,
+            "id_name": "IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 46
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "Mico_MOBILE"
+    },
+    {
+      "appid": 4010265,
+      "app_data": {
+        "max_seq": 4,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "bmFtZQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "AGQKDQo=",
+            "is_uniq_id": true,
+            "id_name": "4010265IMEI"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "kuaishou_MOBILE"
+    },
+    {
+      "appid": 7050008,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "KGltZWl8aW1zaXxyZW5yZW4p"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laS4uLg==",
+            "is_uniq_id": true,
+            "id_name": "7050008IMEI"
+          },
+          {
+            "prefix_match": "aW1zaS4uLg==",
+            "is_uniq_id": true,
+            "id_name": "7050008IMSI"
+          },
+          {
+            "prefix_match": "dXNlcl9pZD0=",
+            "is_uniq_id": true,
+            "id_name": "7050008UID"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 15,
+        "check_uniq_id": true
+      },
+      "name": "renren_MOBILE"
+    },
+    {
+      "appid": 3010076,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L3RhbGtib3gvYXBpL3VzZXI="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dWRJZD0=",
+            "is_uniq_id": true,
+            "id_name": "3030081imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "max": 37
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "TalkBox_MOBILE"
+    },
+    {
+      "appid": 3030025,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L2xvZ2luXC5waHA="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "3030025imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 25,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "ailiao_MOBILE"
+    },
+    {
+      "appid": 3030031,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L3VzZXIvbG9naW5cLnBocA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "3030031imei"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          }
+        ],
+        "max_nr_cnt": 25,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "weihua_MOBILE"
+    },
+    {
+      "appid": 4010217,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "S3VhaWthbg=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "4010217IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "KUAIKAN_MOBILE"
+    },
+    {
+      "appid": 7071110,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "dFwueWFuZ2tlZHVvXC5jb20="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dXVpZD0=",
+            "is_uniq_id": true,
+            "id_name": "7071110IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "PINDUODUO_MOBILE"
+    },
+    {
+      "appid": 3010085,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "eXlcLm1vd293b1wuY29t"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aW1laT0=",
+            "is_uniq_id": true,
+            "id_name": "3010085IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "SHIQIJUNTUAN_MOBILE"
+    },
+    {
+      "appid": 6080768,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "c25ha2VhcGlcLmFmdW5hcHBcLmNvbQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "6080768IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "TANCHISHEDAZUOZHAN_MOBILE"
+    },
+    {
+      "appid": 6080640,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "eGl5b3Uy"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "6080640IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 45,
+            "max": 45
+          },
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "XIYOUNVERGUO_MOBILE"
+    },
+    {
+      "appid": 3010088,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "dWlk"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "dWlkLi4u",
+            "is_uniq_id": true,
+            "id_name": "3010088IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "huanletiaotiaotiao_MOBILE"
+    },
+    {
+      "appid": 3010090,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "aWRmYQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "3010090IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "huanletiaotiaotiao_MOBILE"
+    },
+    {
+      "appid": 6080775,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "ZGV2aWNlTnVtYmVy"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlTnVtYmVyPQ==",
+            "is_uniq_id": true,
+            "id_name": "6080775IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "huanletiaotiaotiao_MOBILE"
+    },
+    {
+      "appid": 3010091,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "ZGV2aWNl"
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "ZGV2aWNlPQ==",
+            "is_uniq_id": true,
+            "id_name": "3010091IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "xiyouwangguo_MOBILE"
+    },
+    {
+      "appid": 3010092,
+      "app_data": {
+        "max_seq": 2,
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "aWRmYQ=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYS4uLi4u",
+            "is_uniq_id": true,
+            "id_name": "3010092IDFA"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 44,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          }
+        ],
+        "max_nr_cnt": 36,
+        "check_uniq_id": true
+      },
+      "name": "xingyaochuanshuo_MOBILE"
+    },
+    {
+      "appid": 2020702,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "dmlkZW8="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "2020702idfa"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 39,
+            "max": 255
+          },
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "douyin_MOBILE"
+    },
+    {
+      "appid": 4010024,
+      "app_data": {
+        "match_data": [
+          {
+            "port": [
+              80
+            ],
+            "match_str": "L3B2LnBocA=="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "aWRmYT0=",
+            "is_uniq_id": true,
+            "id_name": "4010024idfa"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 39,
+            "max": 255
+          }
+        ],
+        "max_nr_cnt": 40,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "mangguoTV_MOBILE"
+    },
+    {
+      "appid": 1080002,
+      "app_data": {
+        "match_data": [
+          {
+            "match_str": "W0lpXVtNbV1bRWVdW0lpXXxbbExdW29PXVtuTl1bZ0ddW2lJXXxbbExdW2FBXVt0VF1baUldfFtJaV1bRGRdW0ZmXVtBYV0="
+          }
+        ],
+        "nr_data": [
+          {
+            "prefix_match": "W0lpXVtNbV1bRWVdW0lpXT0=",
+            "is_uniq_id": true,
+            "id_name": "2021289"
+          },
+          {
+            "prefix_match": "W0lpXVtNbV1bRWVdW0lpXTpceDIy",
+            "is_uniq_id": true,
+            "id_name": "2021289"
+          },
+          {
+            "prefix_match": "W2xMXVtvT11bbk5dW2dHXVtpSV09",
+            "is_uniq_id": true,
+            "id_name": "2021290"
+          },
+          {
+            "prefix_match": "W2xMXVtvT11bbk5dW2dHXVtpSV06XHgyMg==",
+            "is_uniq_id": true,
+            "id_name": "2021290"
+          },
+          {
+            "prefix_match": "W2xMXVthQV1bdFRdW2lJXT0=",
+            "is_uniq_id": true,
+            "id_name": "2021291"
+          },
+          {
+            "prefix_match": "W2xMXVthQV1bdFRdW2lJXTpceDIy",
+            "is_uniq_id": true,
+            "id_name": "2021291"
+          },
+          {
+            "prefix_match": "W0lpXVtEZF1bRmZdW0FhXS4=",
+            "is_uniq_id": true,
+            "id_name": "2021292"
+          },
+          {
+            "prefix_match": "W0lpXVtEZF1bRmZdW0FhXS5ceDIy",
+            "is_uniq_id": true,
+            "id_name": "2021292"
+          }
+        ],
+        "valid_nr_symbs": [
+          {
+            "min": 48,
+            "max": 57
+          },
+          {
+            "min": 65,
+            "max": 90
+          },
+          {
+            "min": 97,
+            "max": 122
+          },
+          {
+            "min": 45,
+            "max": 46
+          }
+        ],
+        "max_nr_cnt": 40,
+        "multi_login": true,
+        "check_uniq_id": true
+      },
+      "name": "IMEI_MOBILE"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package HTTPINFO;
+
+message HTTPINFO {
+    repeated HTTPHEADER header = 1;
+}

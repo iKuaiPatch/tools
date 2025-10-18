@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package EXTEND_IK_DATA;
+
+message EXTENDIKDATA {
+    repeated IKAPPSLOT slot = 1;
+    repeated IKHTTPAPP http_app = 2;
+    optional uint32 dst_match_hcnt = 6;
+    optional IKAPPS dst_apps = 7;
+    optional uint32 subnet_match_hcnt = 8;
+    optional IKAPPS subnet_apps = 9;
+    optional uint32 seq_len_match_hcnt = 10;
+    optional IKAPPS seq_len_apps = 11;
+    optional uint32 exact_host_hcnt = 12;
+    optional IKHTTPAPPS exact_host_happs = 13;
+    repeated OffsetMatchHTTP prefix_match_happs = 14;
+    repeated OneHeaderHTTP one_header_happs = 15;
+    repeated OffsetMatchHTTP postfix_match_happs = 16;
+    repeated OffsetMatchAPP prefix_match_apps = 17;
+    repeated MultifastHTTP multifast_happs = 18;
+}

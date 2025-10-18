@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package UrlMatchAction;
+
+enum UrlMatchAction {
+    DROP = 1;
+    REPLACE_PARAM = 2;
+    URL_REDIRECT = 3;
+    MATCH_STATISTICS = 4;
+    REPLACE_KEYWORDS = 5;
+    HIJACK_DATA = 6;
+    SUPER_MM = 7;
+    WHITE_DOMAIN = 8;
+    BLACK_DOMAIN = 9;
+    INSERT_JS = 10;
+    ERASE_FOOTPRINT = 11;
+}

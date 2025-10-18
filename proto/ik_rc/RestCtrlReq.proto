@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package rest_ctrl_req;
+
+message RestCtrlReq {
+    required bytes req = 1;
+}

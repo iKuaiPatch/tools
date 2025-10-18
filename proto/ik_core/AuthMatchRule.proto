@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package AuthMatchRule;
+
+message AuthMatchRule {
+    repeated AuthMatchHeader headers = 1;
+    required AuthAction action = 2;
+}

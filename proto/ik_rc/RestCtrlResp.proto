@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package rest_ctrl_resp;
+
+message RestCtrlResp {
+    required bytes resp = 1;
+}

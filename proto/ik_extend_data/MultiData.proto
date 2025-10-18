@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package MultiData;
+
+message MultiData {
+    required uint32 threshold = 1;
+    repeated MatchData match_data = 2;
+}

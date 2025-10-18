@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package HttpMatchData;
+
+message HttpMatchData {
+    required uint32 dir = 1;
+    repeated uint32 pkt_seq = 2;
+    repeated uint32 port = 3;
+    required uint32 index = 4;
+    required bytes match_str = 5;
+    optional int32 offset = 6;
+    repeated Range port_range = 7;
+    optional ImAuditProto proto = 8;
+    repeated Range fwd_port_range = 9;
+    optional uint32 min_pkt_seq = 10;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package lb_dev;
+
+message LbDev {
+    required string ifname = 1;
+    required uint32 routeid = 2;
+    required uint32 factor = 3;
+}

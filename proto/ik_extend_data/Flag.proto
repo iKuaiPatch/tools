@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package Flag;
+
+enum Flag {
+    FT_DEFAULT = 0;
+    FT_WEAK = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package IK_APPS;
+
+message IKAPPS {
+    repeated IKAPP ik_app = 1;
+}

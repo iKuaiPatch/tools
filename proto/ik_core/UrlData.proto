@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package UrlData;
+
+message UrlData {
+    repeated UrlFilter filter = 1;
+}

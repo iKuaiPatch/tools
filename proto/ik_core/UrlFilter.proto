@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package UrlFilter;
+
+message UrlFilter {
+    required UrlMatchAction action = 1;
+    required string orig_host_url = 2;
+    optional string param = 3;
+    optional string replace_param_value = 4;
+    optional string redirect_url = 5;
+    optional UrlMatchMethod match_method = 6;
+    repeated DateRange date_range = 7;
+    optional uint32 hit_rate = 8;
+    optional string url_keywords = 9;
+    optional string orig_keywords = 10;
+    optional string name = 11;
+    optional string excluded_keywords = 12;
+    optional uint32 hidden = 13;
+    optional uint32 data_id = 15;
+    optional string src_ipset = 16;
+    repeated string mm_url_param = 17;
+    repeated string mm_url_pv = 18;
+    repeated string mm_referer_param = 19;
+    repeated string mm_referer_pv = 20;
+    repeated string mul_hosts = 21;
+    repeated string excl_mul_hosts = 22;
+    repeated AppIDRange excl_appid_ranges = 23;
+    repeated AppIDRange match_appid_ranges = 24;
+    repeated uint32 match_appids = 25;
+    optional bool valid_html_request = 26;
+    optional string match_ua = 27;
+    optional string excl_ua = 28;
+    optional string excl_src_ipset = 29;
+    repeated MatchHeader match_headers = 30;
+    repeated EraseHeader erase_headers = 31;
+    optional uint32 prio = 32;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package wans_snat_list;
+
+message WansSnatList {
+    repeated WansSnat node = 1;
+}

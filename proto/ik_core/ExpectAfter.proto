@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package ExpectAfter;
+
+enum ExpectAfter {
+    ANY = 0;
+    DROP = 1;
+    ACCEPT = 2;
+}

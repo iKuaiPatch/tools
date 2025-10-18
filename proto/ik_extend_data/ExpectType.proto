@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package ExpectType;
+
+enum ExpectType {
+    SPORT = 1;
+    DADDR_SPORT = 2;
+    DADDR_DPORT = 4;
+    DADDR = 8;
+}

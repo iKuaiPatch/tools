@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package WhiteHTTPS;
+
+message WhiteHTTPS {
+    repeated string domain = 1;
+    required uint32 redirect_port = 2;
+    optional string white_https_ipset = 3;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package MultifastHTTP;
+
+message MultifastHTTP {
+    required uint32 index = 1;
+    repeated IKHTTPAPP http_app = 2;
+}

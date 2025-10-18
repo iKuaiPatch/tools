@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package Proto;
+
+enum Proto {
+    _ANY = 0;
+    _TCP = 6;
+    _UDP = 17;
+}

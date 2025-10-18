@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package ImAuditHttp;
+
+message ImAuditHttp {
+    required uint32 appid = 1;
+    required HttpData http_data = 2;
+    required string name = 3;
+    required ImAuditEvt event = 4;
+}

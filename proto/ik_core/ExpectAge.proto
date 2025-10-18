@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package ExpectAge;
+
+enum ExpectAge {
+    INIT = 0;
+    DNS = 1;
+    TCP = 2;
+    TCP_SYN = 3;
+    TCP_FIN = 4;
+    UDP = 5;
+    ICMP = 6;
+    OTHER = 7;
+    MAX = 8;
+}

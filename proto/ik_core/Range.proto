@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package Range;
+
+message Range {
+    required uint32 min = 1;
+    required uint32 max = 2;
+}

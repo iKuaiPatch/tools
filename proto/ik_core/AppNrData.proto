@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package AppNrData;
+
+message AppNrData {
+    required uint32 dir = 1;
+    repeated uint32 pkt_seq = 2;
+    repeated uint32 port = 3;
+    optional bytes prefix_match = 4;
+    optional uint32 prefix_offset = 5;
+    optional int32 match_offset = 6;
+    optional uint32 disc_logout = 7;
+    repeated Range port_range = 8;
+    optional ImAuditProto proto = 9;
+    repeated Range fwd_port_range = 10;
+    optional uint32 min_pkt_seq = 11;
+    optional bool is_uniq_id = 12;
+    optional string id_name = 13;
+    optional bool is_audit_log = 14;
+}

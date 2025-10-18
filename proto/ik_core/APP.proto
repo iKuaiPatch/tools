@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package APP;
+
+message APP {
+    required uint32 http_id = 1;
+    required uint32 ftp_id = 2;
+    required uint32 tcp_max_seq = 3;
+    required uint32 udp_max_seq = 4;
+    optional EXTENDIKDATA extend_ik_data = 5;
+}

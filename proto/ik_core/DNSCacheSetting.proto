@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package DNSCacheSetting;
+
+message DNSCacheSetting {
+    repeated DNSResItem dns_res = 1;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package AuthAction;
+
+enum AuthAction {
+    AUTH_REDIRECT = 1;
+    AUTH_401_UNAUTH = 2;
+    AUTH_ACCEPT = 3;
+    AUTH_DROP = 4;
+    AUTH_RETURN = 5;
+    AUTH_RESET = 6;
+}
