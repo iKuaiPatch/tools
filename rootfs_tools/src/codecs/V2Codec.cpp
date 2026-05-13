@@ -16,39 +16,32 @@ const uint8_t V2Codec::HASH_TABLE[64] = {
 };
 
 void V2Codec::generate_v2_key(uint8_t *out_key, const uint8_t *data, size_t length) const {
-    MD5Context ctx;
-
     // Step 1: MD5 of raw data.
-    md5Init(&ctx);
-    md5Update(&ctx, data, length);
-    md5Finalize(&ctx);
-    if (Log::is_debug()) Log::hexdump("Rootfs MD5", ctx.digest, 16);
+    uint8_t digest[16];
+    MD5Sum(data, length, digest);
+    if (Log::is_debug()) Log::hexdump("Rootfs MD5", digest, 16);
 
     // Step 2: 20-byte block = swapped-halves-of-MD5 || CRC32.
     uint32_t crc32 = get_hash(data, length);
     Log::debug("Rootfs CRC32: %08x", crc32);
 
     uint8_t block[20];
-    memcpy(block,      ctx.digest + 8, 8);
-    memcpy(block + 8,  ctx.digest,     8);
+    memcpy(block,      digest + 8, 8);
+    memcpy(block + 8,  digest,     8);
     memcpy(block + 16, &crc32,         4);
     if (Log::is_debug()) Log::hexdump("MD5 + CRC32", block, 20);
 
     // Step 3: MD5(block).
-    md5Init(&ctx);
-    md5Update(&ctx, block, 20);
-    md5Finalize(&ctx);
     uint8_t mid[16];
-    memcpy(mid, ctx.digest, 16);
+    MD5Sum(block, 20, mid);
     if (Log::is_debug()) Log::hexdump("Generated Key1", mid, 16);
 
     // Step 4: MD5(MD5(block)).
-    md5Init(&ctx);
-    md5Update(&ctx, mid, 16);
-    md5Finalize(&ctx);
-    if (Log::is_debug()) Log::hexdump("Generated Key2", ctx.digest, 16);
+    uint8_t final_digest[16];
+    MD5Sum(mid, 16, final_digest);
+    if (Log::is_debug()) Log::hexdump("Generated Key2", final_digest, 16);
 
-    memcpy(out_key, ctx.digest, 16);
+    memcpy(out_key, final_digest, 16);
 }
 
 int V2Codec::encrypt(uint8_t *data, size_t *data_size,

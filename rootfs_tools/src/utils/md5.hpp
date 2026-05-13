@@ -1,15 +1,14 @@
 #pragma once
 #include <cstdint>
 #include <cstddef>
+#include <openssl/evp.h>
 
 struct MD5Context {
-    uint64_t size;
-    uint32_t buffer[4];
-    uint8_t  input[64];
-    uint8_t  digest[16];
+    EVP_MD_CTX* ctx = nullptr;
+    uint8_t digest[16];
 };
 
-void md5Init(MD5Context *ctx);
-void md5Update(MD5Context *ctx, const uint8_t *input, size_t input_len);
-void md5Finalize(MD5Context *ctx);
-void md5Step(uint32_t *buffer, uint32_t *input);
+void MD5Init(MD5Context* ctx);
+void MD5Update(MD5Context* ctx, const void* data, std::size_t len);
+void MD5Final(MD5Context* ctx);
+void MD5Sum(const uint8_t* data, std::size_t data_len, uint8_t* digest);
