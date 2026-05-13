@@ -110,7 +110,8 @@ def main(key, outdir="ikp"):
             idx = file.find(gzip_header)
             if idx != -1:
                 pkgname = os.path.basename(path).split('.')[0]
-                os.mkdir(f'{outdir}/{pkgname}')
+                if not os.path.exists(f'{outdir}/{pkgname}'):
+                    os.mkdir(f'{outdir}/{pkgname}')
                 with open(f'{outdir}/{pkgname}/install.sh', 'wb') as f:
                     f.write(file[:idx])
                 data = file[idx:]
