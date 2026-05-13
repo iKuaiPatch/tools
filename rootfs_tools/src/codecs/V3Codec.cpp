@@ -74,22 +74,24 @@ void V3Codec::generate_v3_context(const uint8_t *seed,
 // ---------------------------------------------------------------------------
 
 int V3Codec::encrypt(uint8_t *data, size_t *data_size,
-                    const uint8_t *seed, const uint8_t *signature) {
+                    const uint8_t *key, const uint8_t *signature) {
     size_t original_size = *data_size;
     if (original_size < 1) { Log::error("File is empty"); return -1; }
     if (original_size > UINT32_MAX - static_cast<size_t>(TRAILER_SIZE)) {
         Log::error("File too large for V3 rootfs format"); return -1; }
 
-    uint8_t generated_seed[KEY_SIZE];
-    if (!seed) { generate_random_key(generated_seed); seed = generated_seed; }
+    uint8_t generated[KEY_SIZE];
+    if (!key) {
+        generate_v2_key(generated, data, original_size);
+        key = generated;
+    }
 
     uint8_t ext_key[EXT_KEY_SIZE];
     uint8_t perm[PERM_SIZE];
     uint8_t inv_perm[PERM_SIZE];
-    generate_v3_context(seed, ext_key, perm, inv_perm);
+    generate_v3_context(key, ext_key, perm, inv_perm);
 
     uint32_t calculated_hash = get_hash(data, original_size);
-    if (Log::is_debug()) Log::hexdump("V3 Seed", seed, KEY_SIZE);
 
     for (int round = 0; round < ROUNDS; round++) {
         for (uint32_t idx = 0; idx < static_cast<uint32_t>(original_size); idx++) {
@@ -107,7 +109,7 @@ int V3Codec::encrypt(uint8_t *data, size_t *data_size,
     }
 
     size_t signed_size = original_size + KEY_SIZE + HASH_SIZE;
-    memcpy(data + original_size,                      seed,             KEY_SIZE);
+    memcpy(data + original_size, key, KEY_SIZE);
     memcpy(data + original_size + KEY_SIZE, &calculated_hash, HASH_SIZE);
 
     uint8_t generated_sig[SIGNATURE_SIZE];

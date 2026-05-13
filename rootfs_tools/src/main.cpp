@@ -76,32 +76,34 @@ static char *join_path(const char *dir, const char *name) {
 // ---------------------------------------------------------------------------
 
 static void print_usage(const char *prog) {
-    Log::info("Usage: %s <operation> <input_file> <output_dir|output_file> [OPTIONS]", prog);
-    Log::info(" ");
-    Log::info("Operations:");
-    Log::info("  decrypt       Decrypt rootfs");
-    Log::info("  encrypt       Encrypt rootfs");
-    Log::info(" ");
-    Log::info("Options:");
-    Log::info("  -v1                Use v1 rootfs format (default)");
-    Log::info("  -v2                Use v2 rootfs format");
-    Log::info("  -v3                Use v3 rootfs format");
-    Log::info("  -d                 Enable debug output");
-    Log::info("  -l LENGTH          Rootfs length (split off trailing data)");
-    Log::info("  -a APPEND_FILE     File to append after encrypt");
-    Log::info("  -k KEY_FILE        Reuse 16-byte key/seed for byte-exact encrypt");
-    Log::info("  -p PRIVATE_KEY     V3 private key (signing / verification)");
-    Log::info("  -s SIGNATURE_FILE  Pre-built signature file for V3 encrypt");
-    Log::info("  -u PUBLIC_KEY      Override V3 RSA public key for verification");
-    Log::info("  -h                 Show this help");
-    Log::info(" ");
-    Log::info("Examples:");
-    Log::info("  %s decrypt rootfs          output_dir", prog);
-    Log::info("  %s decrypt rootfs          output_dir  -v2", prog);
-    Log::info("  %s decrypt rootfs          output_dir  -v3 -p private.pem", prog);
-    Log::info("  %s encrypt rootfs.img.xz   output.img", prog);
-    Log::info("  %s encrypt rootfs.img.xz   output.img  -v2 -k key.bin", prog);
-    Log::info("  %s encrypt rootfs.img.xz   output.img  -v3 -k key.bin -p private.pem", prog);
+    #define printfn(fmt, ...) fprintf(stderr, fmt "\n", ##__VA_ARGS__)
+    printfn("Usage: %s <operation> <input_file> <output_dir|output_file> [OPTIONS]", prog);
+    printfn(" ");
+    printfn("Operations:");
+    printfn("  decrypt       Decrypt rootfs");
+    printfn("  encrypt       Encrypt rootfs");
+    printfn(" ");
+    printfn("Options:");
+    printfn("  -v1                Use v1 rootfs format (default)");
+    printfn("  -v2                Use v2 rootfs format");
+    printfn("  -v3                Use v3 rootfs format");
+    printfn("  -d                 Enable debug output");
+    printfn("  -l LENGTH          Rootfs length (split off trailing data)");
+    printfn("  -a APPEND_FILE     File to append after encrypt");
+    printfn("  -k KEY_FILE        Reuse 16-byte key/seed for byte-exact encrypt");
+    printfn("  -p PRIVATE_KEY     V3 private key (signing / verification)");
+    printfn("  -s SIGNATURE_FILE  Pre-built signature file for V3 encrypt");
+    printfn("  -u PUBLIC_KEY      Override V3 RSA public key for verification");
+    printfn("  -h                 Show this help");
+    printfn(" ");
+    printfn("Examples:");
+    printfn("  %s decrypt rootfs          output_dir", prog);
+    printfn("  %s decrypt rootfs          output_dir  -v2", prog);
+    printfn("  %s decrypt rootfs          output_dir  -v3 -p private.pem", prog);
+    printfn("  %s encrypt rootfs.img.xz   output.img", prog);
+    printfn("  %s encrypt rootfs.img.xz   output.img  -v2 -k key.bin", prog);
+    printfn("  %s encrypt rootfs.img.xz   output.img  -v3 -k key.bin -p private.pem", prog);
+    #undef printfn
 }
 
 // ---------------------------------------------------------------------------

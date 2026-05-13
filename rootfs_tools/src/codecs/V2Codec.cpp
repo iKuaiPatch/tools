@@ -72,7 +72,7 @@ int V2Codec::encrypt(uint8_t *data, size_t *data_size,
     apply_encode_transform(data, original_size, ext_key);
 
     // Trailer layout: [key(16)] [hash(4)]
-    memcpy(data + original_size,                    key,              KEY_SIZE);
+    memcpy(data + original_size, key, KEY_SIZE);
     memcpy(data + original_size + KEY_SIZE, &calculated_hash, HASH_SIZE);
     *data_size = original_size + TRAILER_SIZE;
 
