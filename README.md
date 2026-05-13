@@ -6,7 +6,3 @@
 ETH(USDT): 0x4568da7585f7d7d980fa30fcd6dd6e151778bbef
 
 TRX(USDT): THYrLLaMpb7zp5ZZXq72XGsgvLqnbdk821
-
-## Chat with us
-
-[![Matrix: Support](https://img.shields.io/badge/Support_&_Feedack-deeppink?style=for-the-badge&label=Matrix+Chat)](https://matrix.to/#/#router-patch:bladerunn.in)
