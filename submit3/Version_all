@@ -1,12 +1,14 @@
 [GLOBAL]
 #协议/规则库版本
-libproto_ver    = 2.0.437
+libproto_ver    = 2.0.464
 libaudit_ver    = 2.1.17
 libdomain_ver   = 2.0.0
 libdomain2_ver  = 2.1.0
 libvcache_ver   = 20170909
 libproto4_ver   = 
-libcrts_ver     = 10
+libcrts_ver     = 12
+libproto_v4_ver    = 3.0.15
+libaudit_v4_ver    = 3.0.1
 
 push_remote2    = 1000
 uid_stats_ver   = 1
@@ -76,7 +78,7 @@ IK-MT7621V2_H19_5G        = 2.3.2
 IK-MT7621V2_N9_5G         = 2.3.2
 IK-MT7621V2_SW6_5G        = 2.3.2
 IK-MT7621_W13_5G          = 2.3.2
-#IK-MT7981V1_WX3000G-DP_5G = 2.3.4
+IK-MT7981V1_WX3000G-DP_5G = 2.3.5
 #IK-MT7981V1_WM3000G-P_5G  = 2.3.5
 IK-MT7981V1_H3000G-DP_5G  = 2.3.2
 IK-MT7981V1_HX3000_5G     = 2.3.3
@@ -95,22 +97,23 @@ IK-RTL8197F_WM1500G-P_5G  = 2.2.5
 IK-RTL8197F_WX1500G-DP_5G = 2.2.5
 IK-WIPQ5322_X9_D5G        = 2.3.2
 IK-WIPQ5322_X8_5G         = 2.3.2
-IK-WIPQ5322_SW3600M-DP_5G = 2.3.2
+IK-WIPQ5322_SW3600M-DP_5G = 2.3.4
 IK-EN7563_WX5100M-DP_5G   = 2.3.3
 
 
 #=============================================================================================================
 [X86]
-system_ver   = 3.7.21
-firmware     = iKuai8_x32_3.7.21_Build202508211345.bin
-firmware_x64 = iKuai8_x64_3.7.21_Build202508211345.bin
-update_content = 新增：\\n1. 爱快云绑定：支持一键换绑\\n\\n修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式
+system_ver   = 3.7.22
+firmware     = iKuai8_x32_3.7.22_Build202604141629.bin
+firmware_x64 = iKuai8_x64_3.7.22_Build202604141629.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能\\n\\n修复：\\n1.动态域名配置异常
 
 [X86ENT]
-system_ver   = 3.7.21
-firmware     = iKuai8_x32_3.7.21_Enterprise_Build202509221910.bin
-firmware_x64 = iKuai8_x64_3.7.21_Enterprise_Build202509221910.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+system_ver   = 3.7.22
+firmware     = iKuai8_x32_3.7.22_Enterprise_Build202604141630.bin
+firmware_x64 = iKuai8_x64_3.7.22_Enterprise_Build202604141630.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能\\n\\n修复：\\n1.动态域名配置异常
+
 #=============================================================================================================
 [A220PRO]
 system_ver   = 3.7.21
@@ -124,49 +127,54 @@ firmware_x64 = IK-MT7981V1-M100_sysupgrade_3.7.21_Build202509221910.bin
 update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
 
 [M200]
-system_ver   = 3.7.20
-firmware_x64 = IK-MT7986V1-M200_sysupgrade_3.7.20_Build202506131128.bin
-update_content = 新增：\\n1. 端口分流：支持配置IP归属地分流\\n2. ACL规则：支持配置IP归属地阻断\\n3. DNS设置：支持配置dns记录老化时间\\n\\n修复：\\n1. AC管理：修复AP列表批量配置中，设置漫游灵敏度异常的bug\\n2. AP分组：设置国家地区不生效\\n3. 基础设置：修复部分坏境ntp时间同步异常的bug\\n4. 系统概况：修复三频AP统计5G接入终端数量异常的bug\\n5. WEB登录：首次修改密码时，快速点击两下保存，会概率性出现保存密码异常的bug\\n6. 系统内存：修复部分终端环境系统内存泄漏的bug\\n\\n优化：\\n1. 内外网设置：绑定vnet网卡改为已连接状态\\n2. 网络唤醒：每周支持多选\\n3. 系统备份：恢复配置时自动适配网卡顺序\\n4. 终端监控：拨号方式上线的设备，操作栏不支持修改备注\\n5. 日志信息：AP在系统日志和告警日志中，上下线日志信息不统一
+system_ver   = 3.7.22
+firmware_x64 = IK-MT7986V1-M200_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [M5S]
-system_ver   = 3.7.21
-firmware_x64 = IK-MT7981V1-M5S_sysupgrade_3.7.21_Build202509221910.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+system_ver   = 3.7.22
+firmware_x64 = IK-MT7981V1-M5S_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [M10S]
-system_ver   = 3.7.21
-firmware_x64 = IK-MT7981V1-M10S_sysupgrade_3.7.21_Build202509250926.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+system_ver   = 3.7.22
+firmware_x64 = IK-MT7981V1-M10S_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [M60]
-system_ver   = 3.7.21
-firmware_x64 = IK-MT7981V1-M60_sysupgrade_3.7.21_Build202509221910.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+system_ver   = 3.7.22
+firmware_x64 = IK-MT7981V1-M60_sysupgrade_3.7.22_Build202604081739.bin 
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
+
+[M360X]
+system_ver   = 3.7.19
+firmware_x64 = IK-MT7988V1-M360X_sysupgrade_3.7.19_Build202511041809.bin
+update_content = 一个全新的系统
 
 [A50]
-system_ver   = 3.7.21
-firmware_x64 = IK-MT7981V1-A50_sysupgrade_3.7.21_Build202509221910.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+system_ver   = 3.7.22
+firmware_x64 = IK-MT7981V1-A50_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [A50-P]
-system_ver   = 3.7.21
-firmware_x64 = IK-MT7981V1-A50-P_sysupgrade_3.7.21_Build202509221910.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+system_ver   = 3.7.22
+firmware_x64 = IK-MT7981V1-A50-P_sysupgrade_3.7.22_Build202604081739.bin 
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [A100-P]
-system_ver   = 3.7.21
-firmware_x64 = IK-MT7981V1-A100-P_sysupgrade_3.7.21_Build202509250926.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+system_ver   = 3.7.22
+firmware_x64 = IK-MT7981V1-A100-P_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [M08]
-system_ver   = 3.7.21
-firmware_x64 = IK-MT7981V1-M08_sysupgrade_3.7.21_Build202509250926.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+system_ver   = 3.7.22
+firmware_x64 = IK-MT7981V1-M08_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [A160]
-system_ver   = 3.7.21
-firmware_x64 = IK-MT7981V1-A160_sysupgrade_3.7.21_Build202509221910.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+system_ver   = 3.7.22
+firmware_x64 = IK-MT7981V1-A160_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [Q3S]
 system_ver   = 3.7.21
@@ -175,16 +183,16 @@ firmware_x64 = IK-MT7981V1-Q3S_sysupgrade_3.7.21_Build202509221910.bin
 update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
 
 [Y3000G-PRO]
-system_ver   = 3.7.21
+system_ver   = 3.7.22
 firmwarename = IK-MT7981V1-Y3000G-PRO
-firmware_x64 = IK-MT7981V1-Y3000G-PRO_sysupgrade_3.7.21_Build202509221910.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+firmware_x64 = IK-MT7981V1-Y3000G-PRO_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [C3000]
-system_ver   = 3.7.21
+system_ver   = 3.7.22
 firmwarename = IK-MT7981V1-C3000
-firmware_x64 = IK-MT7981V1-C3000_sysupgrade_3.7.21_Build202509221910.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+firmware_x64 = IK-MT7981V1-C3000_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [Q3000]
 system_ver   = 3.7.21
@@ -199,10 +207,10 @@ firmware_x64 = IK-IPQ53XX-Q3600_sysupgrade_3.7.21_Build202509221910.bin
 update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
 
 [Q6000]
-system_ver   = 3.7.21
+system_ver   = 3.7.22
 firmwarename = IK-MT7986V1-Q6000
-firmware_x64 = IK-MT7986V1-Q6000_sysupgrade_3.7.21_Build202509221910.bin
-update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
+firmware_x64 = IK-MT7986V1-Q6000_sysupgrade_3.7.22_Build202604081739.bin
+update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 
 #=============================================================================================================

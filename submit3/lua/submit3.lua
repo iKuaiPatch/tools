@@ -180,6 +180,82 @@ function posix_init()
 	end
 end
 
+function write_version_shell()
+	local var_1_0 = "/usr/ikuai/include/version_all.sh"
+	local var_1_1 = var_1_0 .. ".tmp"
+	local var_1_2 = [=[
+#导入Version_all 的变量
+BETA_DIR="/etc/mnt/ikuai"
+BETA_FLAG="$BETA_DIR/beta_flag"
+#echo ${VERSION_ALL[system_ver]}
+version_all_load()
+{
+	if [ ! -f /tmp/iktmp/Version_all ];then
+		return 1
+	fi
+	if [ "$OEMNAME" ];then
+		local __version_all_target_config__="[${MODELTYPE}_$OEMNAME]"
+	else
+		local firmware_channel=0
+		if [ -f "$BETA_FLAG" ];then
+			firmware_channel=$(cat $BETA_FLAG)
+			if [ "$firmware_channel" == "1" ];then
+				local __version_all_target_config__="[${MODELTYPE}_BETA]"
+			elif [ "$firmware_channel" == "2" ];then
+				local __version_all_target_config__="[${MODELTYPE}_ALPHA]"
+			else
+				local __version_all_target_config__="[$MODELTYPE]"
+			fi
+		else
+			local __version_all_target_config__="[$MODELTYPE]"
+		fi
+	fi
+
+	while read __version_all_line__ ;do
+		if [[ "$__version_all_line__" =~ ^"[".+"]" ]];then
+			__version_all_confname__="$__version_all_line__"
+		else
+			if [ "$__version_all_confname__" = "[GLOBAL]" -o "$__version_all_confname__" = "$__version_all_target_config__" ];then
+				if [[ "$__version_all_line__" =~ ^([^" "]+)" "*=" "*(.*) ]];then
+					VERSION_ALL[${BASH_REMATCH[1]}]="${BASH_REMATCH[2]}"
+				fi
+			fi
+		fi
+	done</tmp/iktmp/Version_all
+}
+
+version_all_load_alpha()
+{
+	if [ ! -f /tmp/iktmp/Version_all ];then
+		return 1
+	fi
+	local __version_all_target_config__="[${MODELTYPE}_ALPHA]"
+
+	while read __version_all_line__ ;do
+		if [[ "$__version_all_line__" =~ ^"[".+"]" ]];then
+			__version_all_confname__="$__version_all_line__"
+		else
+			if [ "$__version_all_confname__" = "[GLOBAL]" -o "$__version_all_confname__" = "$__version_all_target_config__" ];then
+				if [[ "$__version_all_line__" =~ ^([^" "]+)" "*=" "*(.*) ]];then
+					VERSION_ALL_ALPHA[${BASH_REMATCH[1]}]="${BASH_REMATCH[2]}"
+				fi
+			fi
+		fi
+	done</tmp/iktmp/Version_all
+
+}
+	]=]
+	local var_1_3, var_1_4 = io.open(var_1_1, "wb")
+
+	if var_1_3 then
+		var_1_3:write(var_1_2)
+		var_1_3:close()
+		os.rename(var_1_1, var_1_0)
+	end
+
+	ikL_system("chmod 775 /usr/ikuai/include/version_all.sh")
+end
+
 function init()
 	posix_init()
 	check_have_certs()
@@ -211,8 +287,14 @@ function init()
 	LAST_NUM = math.floor(LAST_NUM)
 	LAST_NUM_1K = math.floor(LAST_NUM_1K)
 
-	if arg[1] == "start" then
-		down_version_all()
+	if arg[1] == "start" and release_info.VERSION_NUM < 400000140 then
+		if release_info.VERSION_NUM == 300070022 and release_info.BUILD_DATE > 202603261436 then
+			if release_info.BUILD_DATE < 202604140000 then
+				write_version_shell()
+			end
+		else
+			down_version_all()
+		end
 	end
 
 	if arg[1] ~= "down_version_all" then
@@ -266,6 +348,8 @@ function check_have_certs()
 
 		print(ca_file_exist)
 	end
+
+	ca_file_exist = false
 end
 
 function submit_patch_check(arg_1_0, arg_1_1)
@@ -620,16 +704,6 @@ function func_check_gwid_repeat()
 
 			return
 		end
-	elseif (jit.arch == "x86" or jit.arch == "x64") and release_info.ENTERPRISE and release_info.GWID == "a85f3b199eae41a48fda4041a42d8aae" then
-		local var_1_6 = [[
-				sqlite3 /etc/mnt/ikuai/config.db  "update register set code='',comment=''"
-				logger -t sys_event "重置系统GWID"
-				/usr/ikuai/script/register.sh __reset_gwid
-			]]
-
-		os.execute(var_1_6)
-
-		return
 	end
 end
 

@@ -11,6 +11,7 @@ import configparser
 import requests
 import io, os
 import struct, gzip
+from pathlib import Path
 
 requests.packages.urllib3.disable_warnings()
 
@@ -81,25 +82,39 @@ for file in files:
     if r.status_code != 200:
         print("Failed to download:", file, r.status_code)
         continue
+    if 'text/html' in r.headers.get('Content-Type', ''):
+        print("Failed to download (HTML content):", file)
+        continue
     with open(f'lib/{file}', "wb") as f:
         for chunk in r.iter_content(8192):
             f.write(chunk)
 
-for root, dirs, files in os.walk('lib'):
-    for file in files:
-        path = os.path.join(root, file)
-        basename = os.path.basename(path).split('.lib')[0]
-        with open(path, "rb") as f:
+lib_dir = Path("lib")
+lib_dir.mkdir(exist_ok=True)
+
+for path in lib_dir.glob("*.lib"):
+    try:
+        basename = path.stem
+        out_dir = lib_dir / basename
+        out_dir.mkdir(exist_ok=True)
+
+        with path.open("rb") as f:
             headlen = struct.unpack(">I", f.read(4))[0]
+
             header_data = f.read(headlen)
-            if not os.path.exists(f"lib/{basename}"):
-                os.mkdir(f"lib/{basename}")
-            with open(f"lib/{basename}/header_info.json", "wb") as ff:
-                ff.write(gzip.decompress(
-                    b"\x1f\x8b\x08\x00\x6f\x9b\x4b\x59\x02\x03" + header_data
-                ))
-            f.seek(4 + headlen)
+            header_json = gzip.decompress(
+                b"\x1f\x8b\x08\x00\x6f\x9b\x4b\x59\x02\x03" + header_data
+            )
+
+            with (out_dir / "header_info.json").open("wb") as ff:
+                ff.write(header_json)
+
             file_data = f.read()
-            with open(f"lib/{basename}/{basename}.tar", "wb") as ff:
-                ff.write(gzip.decompress(file_data))
+            tar_data = gzip.decompress(file_data)
+
+            with (out_dir / f"{basename}.tar").open("wb") as ff:
+                ff.write(tar_data)
+
+    except Exception as e:
+        print("Error processing file:", path.name, e)
 
