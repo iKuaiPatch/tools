@@ -9,7 +9,8 @@
 
 import configparser
 import requests
-import io, os
+import io
+import secrets
 import struct, gzip
 from pathlib import Path
 
@@ -81,7 +82,7 @@ for prefix, version in file_specs:
 headers = {
     'X-Firmware': 'IK-RouterOS',
     'X-Router-Ver': '4.0.210',
-    'X-GWID': '',
+    'X-GWID': secrets.token_hex(16),
     'X-Build-Date': '202604161034',
     'X-Sysbit': 'x64',
     'X-Oemname': '',
