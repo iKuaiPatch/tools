@@ -34,8 +34,10 @@ config.read_file(io.StringIO(text))
 
 libproto = config.get("GLOBAL", "libproto_ver", fallback=None) # dpi
 libproto4_ver = config.get("GLOBAL", "libproto4_ver", fallback=None) # dpi4
+libproto_v4 = config.get("GLOBAL", "libproto_v4_ver", fallback=None) # dpiv4
 
 libaudit = config.get("GLOBAL", "libaudit_ver", fallback=None) # im
+libaudit_v4 = config.get("GLOBAL", "libaudit_v4_ver", fallback=None) # imv4
 
 libdomain_ver = config.get("GLOBAL", "libdomain_ver", fallback=None) # domain
 libdomain2_ver = config.get("GLOBAL", "libdomain2_ver", fallback=None) # domain2
@@ -45,52 +47,75 @@ libvcache_ver = config.get("GLOBAL", "libvcache_ver", fallback=None) # cache ser
 libcrts = config.get("GLOBAL", "libcrts_ver", fallback=None) # crts
 
 patch_url = 'https://patch-src.ikuai8.com:2000/lib/'
-libproto_file = f"IKprotocol_{libproto}.lib"
-libproto_mini_file = f"IKprotocolMINI_{libproto}.lib"
-libproto4_file = f"IKl4dpi_{libproto4_ver}.lib"
+patch_url2 = 'https://patch.ikuai8.com/lib/'
 
-libaudit_file = f"IKaudit_{libaudit}.lib"
-libauditx_file = f"IKauditX_{libaudit}.lib"
+def has_version(version):
+    return version is not None and str(version).strip() != ""
 
-libdomain_file = f"IKdomain_{libdomain_ver}.lib"
-libdomain2_file = f"IKdomain2_{libdomain_ver}.lib"
 
-libdomain_file2 = f"IKdomain_{libdomain2_ver}.lib"
-libdomain2_file2 = f"IKdomain2_{libdomain2_ver}.lib"
-
-libvcache_file = f"IKvcache2_{libvcache_ver}.lib"
-
-libcrts_file = f"IKcrts_{libcrts}.lib"
-
-files = [
-    libproto_file,
-    libproto_mini_file,
-    libproto4_file,
-    libaudit_file,
-    libauditx_file,
-    libdomain_file,
-    libdomain2_file,
-    libdomain_file2,
-    libdomain2_file2,
-    libvcache_file,
-    libcrts_file,
+file_specs = [
+    ("IKprotocol", libproto),
+    ("IKprotocolMINI", libproto),
+    ("IKprotocol", libproto_v4),
+    ("IKprotocolMINI", libproto_v4),
+    ("IKl4dpi", libproto4_ver),
+    ("IKaudit", libaudit),
+    ("IKauditX", libaudit),
+    ("IKaudit", libaudit_v4),
+    ("IKauditX", libaudit_v4),
+    ("IKdomain", libdomain_ver),
+    ("IKdomain2", libdomain_ver),
+    ("IKdomain", libdomain2_ver),
+    ("IKdomain2", libdomain2_ver),
+    ("IKvcache2", libvcache_ver),
+    ("IKcrts", libcrts),
 ]
 
-for file in files:
-    print("Downloading:", file)
-    r = requests.get(patch_url + file, stream=True, timeout=30, verify=False)
-    if r.status_code != 200:
-        print("Failed to download:", file, r.status_code)
-        continue
-    if 'text/html' in r.headers.get('Content-Type', ''):
-        print("Failed to download (HTML content):", file)
-        continue
-    with open(f'lib/{file}', "wb") as f:
-        for chunk in r.iter_content(8192):
-            f.write(chunk)
+files = []
+for prefix, version in file_specs:
+    if has_version(version):
+        files.append(f"{prefix}_{version}.lib")
+    else:
+        print(f"Skip {prefix}: empty version")
+
+headers = {
+    'X-Firmware': 'IK-RouterOS',
+    'X-Router-Ver': '4.0.210',
+    'X-GWID': '',
+    'X-Build-Date': '202604161034',
+    'X-Sysbit': 'x64',
+    'X-Oemname': '',
+    'X-Overseas': '',
+    'X-Edition-Type': 'Enterprise'
+}
 
 lib_dir = Path("lib")
 lib_dir.mkdir(exist_ok=True)
+
+for file in files:
+    downloaded = False
+    for base_url in (patch_url, patch_url2):
+        try:
+            print("Downloading:", file, "from", base_url)
+            r = requests.get(base_url + file, stream=True, timeout=30, headers=headers, verify=False)
+            if r.status_code != 200:
+                print("Failed:", file, "from", base_url, "status", r.status_code)
+                continue
+            if 'text/html' in r.headers.get('Content-Type', ''):
+                print("Failed (HTML content):", file, "from", base_url)
+                continue
+
+            with open(lib_dir / file, "wb") as f:
+                for chunk in r.iter_content(8192):
+                    f.write(chunk)
+
+            downloaded = True
+            break
+        except requests.RequestException as e:
+            print("Request error:", file, "from", base_url, e)
+
+    if not downloaded:
+        print("Failed to download from all sources:", file)
 
 for path in lib_dir.glob("*.lib"):
     try:
