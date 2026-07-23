@@ -1,13 +1,13 @@
 [GLOBAL]
 #协议/规则库版本
-libproto_ver    = 2.0.473
+libproto_ver    = 2.0.474
 libaudit_ver    = 2.1.17
 libdomain_ver   = 2.0.0
 libdomain2_ver  = 2.1.0
 libvcache_ver   = 20170909
 libproto4_ver   = 
 libcrts_ver     = 14
-libproto_v4_ver    = 3.0.24
+libproto_v4_ver    = 3.0.25
 libaudit_v4_ver    = 3.0.1
 
 push_remote2    = 1000
