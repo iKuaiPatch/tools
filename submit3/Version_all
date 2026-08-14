@@ -103,16 +103,16 @@ IK-EN7563_WX5100M-DP_5G   = 2.3.3
 
 #=============================================================================================================
 [X86]
-system_ver   = 3.7.23
-firmware     = iKuai8_x32_3.7.23_Build202606021826.bin
-firmware_x64 = iKuai8_x64_3.7.23_Build202606021826.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware     = iKuai8_x32_3.7.24_Build202608131543.bin
+firmware_x64 = iKuai8_x64_3.7.24_Build202608131543.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [X86ENT]
-system_ver   = 3.7.23
-firmware     = iKuai8_x32_3.7.23_Enterprise_Build202606021825.bin
-firmware_x64 = iKuai8_x64_3.7.23_Enterprise_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware     = iKuai8_x32_3.7.24_Enterprise_Build202608131540.bin
+firmware_x64 = iKuai8_x64_3.7.24_Enterprise_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 #=============================================================================================================
 [A220PRO]
@@ -122,14 +122,14 @@ update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示
 
 #=============================================================================================================
 [M100]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7981V1-M100_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7981V1-M100_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M200]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7986V1-M200_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7986V1-M200_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M5S]
 system_ver   = 3.7.22
@@ -137,63 +137,63 @@ firmware_x64 = IK-MT7981V1-M5S_sysupgrade_3.7.22_Build202604081739.bin
 update_content = 新增：\\n1.版本升级中新增体验版和内测版，可选择升级体验版抢先使用新功能
 
 [M10S]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7981V1-M10S_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7981V1-M10S_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M60]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7981V1-M60_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7981V1-M60_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A50]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7981V1-A50_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7981V1-A50_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A50-P]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7981V1-A50-P_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7981V1-A50-P_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A100-P]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7981V1-A100-P_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7981V1-A100-P_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M08]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7981V1-M08_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7981V1-M08_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A160]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7981V1-A160_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7981V1-A160_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Q3S]
-system_ver   = 3.7.23
+system_ver   = 3.7.24
 firmwarename = IK-MT7981V1-Q3S
-firmware_x64 = IK-MT7981V1-Q3S_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+firmware_x64 = IK-MT7981V1-Q3S_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Y3000G-PRO]
-system_ver   = 3.7.23
+system_ver   = 3.7.24
 firmwarename = IK-MT7981V1-Y3000G-PRO
-firmware_x64 = IK-MT7981V1-Y3000G-PRO_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+firmware_x64 = IK-MT7981V1-Y3000G-PRO_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [C3000]
-system_ver   = 3.7.23
+system_ver   = 3.7.24
 firmwarename = IK-MT7981V1-C3000
-firmware_x64 = IK-MT7981V1-C3000_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+firmware_x64 = IK-MT7981V1-C3000_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Q3000]
-system_ver   = 3.7.23
+system_ver   = 3.7.24
 firmwarename = IK-MT7981V1-Q3000
-firmware_x64 = IK-MT7981V1-Q3000_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+firmware_x64 = IK-MT7981V1-Q3000_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Q3600]
 system_ver   = 3.7.21
@@ -202,21 +202,21 @@ firmware_x64 = IK-IPQ53XX-Q3600_sysupgrade_3.7.21_Build202509221910.bin
 update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示的bug\\n2. 系统概况：MLO开启时，AC状态中2.4G和5G终端连接数错误\\n3. AP列表：部分环境，关闭快速漫游后，用户连接异常的bug\\n4. AP配置：国家码切换到TW/US时，三频AP 5G Radio1不能设置160M频宽的bug\\n5. AC管理：国家码、频宽、信道和射频模式bug\\n6. AP系统升级：全部升级时，已是最新版本的AP依然执行升级操作的bug\\n\\n优化：\\n1. PING测试/路由追踪：支持指定dns解析域名\\n2. VPN客户端：支持自定义线路检测方式\\n3. VLAN设置: 取消MAC地址自动生成
 
 [Q6000]
-system_ver   = 3.7.23
+system_ver   = 3.7.24
 firmwarename = IK-MT7986V1-Q6000
-firmware_x64 = IK-MT7986V1-Q6000_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+firmware_x64 = IK-MT7986V1-Q6000_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Y6000G-PRO]
-system_ver   = 3.7.23
+system_ver   = 3.7.24
 firmwarename = IK-MT7986V1-Y6000G-PRO
-firmware_x64 = IK-MT7986V1-Y6000G-PRO_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+firmware_x64 = IK-MT7986V1-Y6000G-PRO_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A50X-P]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7981V1-A50X-P_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7981V1-A50X-P_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M60X]
 system_ver   = 3.7.23
@@ -224,9 +224,9 @@ firmware_x64 = IK-MT7981V1-M60X_sysupgrade_3.7.23_Build202606021825.bin
 update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
 
 [M360X]
-system_ver   = 3.7.23
-firmware_x64 = IK-MT7988V1-M360X_sysupgrade_3.7.23_Build202606021825.bin
-update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备份本机配置
+system_ver   = 3.7.24
+firmware_x64 = IK-MT7988V1-M360X_sysupgrade_3.7.24_Build202608131540.bin
+update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 #=============================================================================================================
 [M1]
