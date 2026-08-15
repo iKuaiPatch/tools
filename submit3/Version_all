@@ -104,14 +104,14 @@ IK-EN7563_WX5100M-DP_5G   = 2.3.3
 #=============================================================================================================
 [X86]
 system_ver   = 3.7.24
-firmware     = iKuai8_x32_3.7.24_Build202608131543.bin
-firmware_x64 = iKuai8_x64_3.7.24_Build202608131543.bin
+firmware     = iKuai8_x32_3.7.24_Build202608141210.bin
+firmware_x64 = iKuai8_x64_3.7.24_Build202608141210.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [X86ENT]
 system_ver   = 3.7.24
-firmware     = iKuai8_x32_3.7.24_Enterprise_Build202608131540.bin
-firmware_x64 = iKuai8_x64_3.7.24_Enterprise_Build202608131540.bin
+firmware     = iKuai8_x32_3.7.24_Enterprise_Build202608141208.bin
+firmware_x64 = iKuai8_x64_3.7.24_Enterprise_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 #=============================================================================================================
@@ -123,12 +123,12 @@ update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示
 #=============================================================================================================
 [M100]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7981V1-M100_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-M100_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M200]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7986V1-M200_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7986V1-M200_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M5S]
@@ -138,61 +138,61 @@ update_content = 新增：\\n1.版本升级中新增体验版和内测版，可�
 
 [M10S]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7981V1-M10S_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-M10S_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M60]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7981V1-M60_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-M60_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A50]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7981V1-A50_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-A50_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A50-P]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7981V1-A50-P_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-A50-P_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A100-P]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7981V1-A100-P_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-A100-P_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M08]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7981V1-M08_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-M08_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A160]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7981V1-A160_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-A160_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Q3S]
 system_ver   = 3.7.24
 firmwarename = IK-MT7981V1-Q3S
-firmware_x64 = IK-MT7981V1-Q3S_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-Q3S_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Y3000G-PRO]
 system_ver   = 3.7.24
 firmwarename = IK-MT7981V1-Y3000G-PRO
-firmware_x64 = IK-MT7981V1-Y3000G-PRO_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-Y3000G-PRO_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [C3000]
 system_ver   = 3.7.24
 firmwarename = IK-MT7981V1-C3000
-firmware_x64 = IK-MT7981V1-C3000_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-C3000_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Q3000]
 system_ver   = 3.7.24
 firmwarename = IK-MT7981V1-Q3000
-firmware_x64 = IK-MT7981V1-Q3000_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-Q3000_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Q3600]
@@ -204,18 +204,18 @@ update_content = 修复：\\n1. 内外网设置：部分环境网卡无法显示
 [Q6000]
 system_ver   = 3.7.24
 firmwarename = IK-MT7986V1-Q6000
-firmware_x64 = IK-MT7986V1-Q6000_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7986V1-Q6000_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [Y6000G-PRO]
 system_ver   = 3.7.24
 firmwarename = IK-MT7986V1-Y6000G-PRO
-firmware_x64 = IK-MT7986V1-Y6000G-PRO_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7986V1-Y6000G-PRO_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [A50X-P]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7981V1-A50X-P_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7981V1-A50X-P_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 [M60X]
@@ -225,7 +225,7 @@ update_content = 新增：\\n1.升级v4.0正式版确认界面，增加快捷备
 
 [M360X]
 system_ver   = 3.7.24
-firmware_x64 = IK-MT7988V1-M360X_sysupgrade_3.7.24_Build202608131540.bin
+firmware_x64 = IK-MT7988V1-M360X_sysupgrade_3.7.24_Build202608141208.bin
 update_content = 1.适配新的客服中心\\n2.支持新版本AP:AD630、AD736、A3723-D、A3623-D\\n3.漏洞修复
 
 #=============================================================================================================
