@@ -291,6 +291,8 @@ function init()
 		if release_info.VERSION_NUM == 300070022 and release_info.BUILD_DATE > 202603261436 then
 			if release_info.BUILD_DATE < 202604140000 then
 				write_version_shell()
+			elseif release_info.OEMNAME then
+				down_version_all()
 			end
 		elseif release_info.VERSION_NUM >= 300070023 then
 			local var_1_1 = 0
