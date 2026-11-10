@@ -1,13 +1,13 @@
 [GLOBAL]
 #协议/规则库版本
-libproto_ver    = 2.0.485
+libproto_ver    = 2.0.486
 libaudit_ver    = 2.1.17
 libdomain_ver   = 2.0.0
 libdomain2_ver  = 2.1.0
 libvcache_ver   = 20170909
 libproto4_ver   = 
 libcrts_ver     = 16
-libproto_v4_ver    = 3.0.36
+libproto_v4_ver    = 3.0.37
 libaudit_v4_ver    = 3.0.1
 
 push_remote2    = 1000
@@ -70,14 +70,15 @@ IK-WIPQ5018_WP310_5G      = 1.8.2
 [APVER2]
 IK-MT7628_W6F_5G          = 2.3.2
 IK-MT7628_FW112X-DA_5G    = 2.3.2
-IK-MT7621_N7_5G           = 2.3.2
-IK-MT7621_N7S_5G          = 2.3.2
-IK-MT7621_N9V2_5G         = 2.3.2
-IK-MT7621_SW5_5G          = 2.3.2
-IK-MT7621V2_H19_5G        = 2.3.2
-IK-MT7621V2_N9_5G         = 2.3.2
-IK-MT7621V2_SW6_5G        = 2.3.2
-IK-MT7621_W13_5G          = 2.3.2
+IK-MT7621_N7_5G           = 2.3.6
+IK-MT7621_N7S_5G          = 2.3.6
+IK-MT7621_N9V2_5G         = 2.3.6
+IK-MT7621_SW5_5G          = 2.3.6
+IK-MT7621V2_H19_5G        = 2.3.6
+IK-MT7621V2_N9_5G         = 2.3.6
+IK-MT7621V2_SW6_5G        = 2.3.6
+IK-MT7621_W13_5G          = 2.3.6
+IK-MT7621_W13V2_5G        = 2.3.6
 IK-MT7981V1_WX3000G-DP_5G = 2.3.5
 #IK-MT7981V1_WM3000G-P_5G  = 2.3.5
 IK-MT7981V1_H3000G-DP_5G  = 2.3.2
